@@ -1,6 +1,6 @@
 function Footer () {
     return (
-      <footer className="p-4 bg-white sm:px-16 sm:py-6 dark:bg-gray-900 w-full mt-6 sm:mt-24">
+      <footer className="p-4 bg-white sm:px-16 sm:py-8 dark:bg-gray-900 w-full pt-6 sm:pt-16">
         <div className="md:flex md:justify-between">
           <div className="mb-4 md:mb-0">
             <a href="/" className="flex items-center">
