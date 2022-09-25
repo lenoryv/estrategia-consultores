@@ -1,5 +1,8 @@
 import './App.css';
 
+import { Footer } from './components/Footer';
+import { Navbar } from './components/Navbar';
+
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 //Pages
 import Home from './pages/Home';
@@ -9,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <section className="App-content">
+        <Navbar/>
         <BrowserRouter>
           <Routes>
             <Route index pathname="/" element={<Home/>}/>
@@ -18,6 +22,7 @@ function App() {
             />
           </Routes>
         </BrowserRouter>
+        <Footer />
       </section>
     </div>
   );
