@@ -68,7 +68,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="flex flex-col pt-6 pb-20 sm:px-24 py-6 h-full gap-6">
+      <section className="flex flex-col pt-6 pb-20 sm:px-24 px-6 py-6 h-full gap-6">
         <div className="flex">
           <span className="uppercase font-poppins font-medium text-base text-white">
             Nuestros Servcios
