@@ -7,7 +7,6 @@
 }
 
 .App-content {
-  background-color: #001D6E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

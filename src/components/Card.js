@@ -1,4 +1,4 @@
-import Videos from "../data/LocalDB";
+import {Videos} from "../data/LocalDB";
 
 function Card() {
   return Videos.map((video) => {
@@ -10,7 +10,10 @@ function Card() {
         <a href="/">
           <iframe
             className="w-80 h-52 rounded-t-lg"
-            src={"https://www.youtube.com/embed/" + video.url.substring(32)}
+            src={
+              "https://www.youtube-nocookie.com/embed/" +
+              video.url.substring(32)
+            }
             title="Carlos Granda l Resultados del Estudio sobre el primer año de gestión del gobierno"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
