@@ -83,13 +83,13 @@ const Home = () => {
               Servicios sobre investigación de mercados, análisis, diseño,
               planes y asesorías.
             </span>
-            <button
-              onClick={() => console.log("Servcios...")}
+            <a
+              href="/servicios"
               type="button"
               className="flex w-32 px-6 py-3 border bg-white border-ec-blue text-sm text-ec-blue font-sans font-semibold rounded-md justify-center mt:4 sm:mt-11 hover:text-black hover:bg-gray-300"
             >
               Saber Más
-            </button>
+            </a>
           </div>
           <div
             className="h-64 w-auto sm:h-96 rounded-sm sm:rounded-3xl bg-cover sm:w-3/4"
