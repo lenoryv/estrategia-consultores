@@ -1,7 +1,7 @@
 const Services = () => {
     return (
       <div className="h-full w-full px-6 sm:px-24">
-        <h1 className="text-xl sm:text-5xl font-bold font-poppins dark:text-white mt-20 sm:mt-32 sm:mb-10">
+        <h1 className="text-xl sm:text-4xl font-bold font-poppins dark:text-white mt-20 sm:mt-32 sm:mb-10">
           <small className="mr-2 font-medium font-poppins text-gray-500 dark:text-gray-400">
             Entre los servicios ofrecidos por
           </small>
@@ -10,24 +10,24 @@ const Services = () => {
             están:
           </small>
         </h1>
-        <section className="flex w-full mt-4 sm:mt-6 flex-col sm:grid sm:grid-cols-2 gap-4 sm:grid-rows-6">
-          <span className="flex justify-center items-center p-4 text-base font-sans font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+        <section className="flex w-full text-lg font-medium font-sans mt-4 sm:mt-6 flex-col sm:grid sm:grid-cols-2 gap-4 sm:grid-rows-6">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Estudios de Opinión Pública (Política)
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Estudios cuantitativos de mercado
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Análisis cualitativos (grupos focales, entrevistas de profundidad,
             clientes fantasma, simulaciones, etc.)
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Diseño y evaluación de proyectos
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Design Thinking para innovación de productos y servicios
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Levantamiento y diseño de Procesos
           </span>
           <a
@@ -46,7 +46,7 @@ const Services = () => {
           <span className="flex justify-center items-center p-4 text-base font-sans font-font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Asesoría en formulación de proyectos
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Análisis estadístico y financiero
           </span>
           <span className="flex justify-center items-center p-4 text-base font-sans font-font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">

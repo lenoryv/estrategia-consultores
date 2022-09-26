@@ -9,9 +9,10 @@ const Home = () => {
             Estrategia Consultores
           </span>
           <span className="font-normal text-base sm:text-base sm:w-3/4 text-left text-white">
-            Centrada en investigación de mercados y opinión pública, planeación
-            estratégica, comunicación integral e innovación para el
-            emprendimiento
+            Es una empresa de consultoría centrada en la generación de
+            información y análisis de mercados, opinión pública, procesos de
+            innovación y comunicación integral, para organizaciones públicas y
+            privadas a nivel nacional.
           </span>
         </div>
         <div className="flex flex-col items-center sm:flex-row sm:relative mt-6 sm:mt-0">
@@ -31,9 +32,12 @@ const Home = () => {
               src="./assets/icons/question-answer-v2.svg"
               alt="icon button"
             />
-            <span className="text-ec-blue text-xs sm:text-sm font-sans font-bold uppercase">
+            <a
+              href="/encuesta"
+              className="text-ec-blue text-xs sm:text-sm font-sans font-bold uppercase"
+            >
               Responde la consulta del día
-            </span>
+            </a>
           </button>
         </div>
       </section>
@@ -53,10 +57,7 @@ const Home = () => {
               Empresa de Consultoría
             </span>
             <span className="font-sans font-normal text-base text-gray-700">
-              ESTRATEGIA es una empresa de consultoría centrada en la generación
-              de información y análisis de mercados, opinión pública, procesos
-              de innovación y comunicación integral, para organizaciones
-              públicas y privadas a nivel nacional. Constituimos un grupo
+              Constituimos un grupo
               consultor multidisciplinario integrado por profesionales con más
               de 22 años de experiencia en las áreas de Opinión Pública,
               Investigación de Mercados, Economía, Marketing, Comunicación,
