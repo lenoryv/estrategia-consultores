@@ -83,8 +83,8 @@ function Navbar() {
             </li>
             <li>
               <a
-                id="Customers"
-                href="/"
+                id="clientes"
+                href="/clientes"
                 className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-900 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
               >
                 Experiencia/Clientes
