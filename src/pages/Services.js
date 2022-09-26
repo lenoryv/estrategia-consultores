@@ -10,7 +10,7 @@ const Services = () => {
             están:
           </small>
         </h1>
-        <section className="flex w-full text-lg font-medium font-sans mt-4 sm:mt-6 flex-col sm:grid sm:grid-cols-2 gap-4 sm:grid-rows-6">
+        <section className="flex w-full text-base sm:text-lg font-medium font-sans mt-4 sm:mt-6 flex-col sm:grid sm:grid-cols-2 gap-4 sm:grid-rows-6">
           <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Estudios de Opinión Pública (Política)
           </span>
@@ -34,7 +34,7 @@ const Services = () => {
             href="https://utpl.zoom.us/j/81263233768"
             className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
           >
-            <span className="flex mr-4 text-base font-normal font-sans">
+            <span className="flex mr-4">
               Modelos de negocios, unirse a través de
             </span>
             <img
@@ -43,16 +43,16 @@ const Services = () => {
               alt="Logo Zoom"
             />
           </a>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Asesoría en formulación de proyectos
           </span>
           <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Análisis estadístico y financiero
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4  text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Planes de marketing y publicidad
           </span>
-          <span className="flex justify-center items-center p-4 text-base font-sans font-font-normal text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+          <span className="flex justify-center items-center p-4 text-gray-500 bg-gray-50 rounded-lg dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
             Asesoría en comunicación institucional
           </span>
         </section>
