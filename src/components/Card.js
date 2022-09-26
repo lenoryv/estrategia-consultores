@@ -9,7 +9,7 @@ function Card() {
       >
         <a href="/">
           <iframe
-            className="w-80 h-52 rounded-t-lg"
+            className="w-full sm:w-80 h-52 rounded-t-lg"
             src={
               "https://www.youtube-nocookie.com/embed/" +
               video.url.substring(32)
