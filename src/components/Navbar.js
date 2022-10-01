@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 function Navbar() {
+  const [openNavbar, setOpenNavbar] = useState(false);
   const pathname = window.location.pathname;
   let newStr = pathname.substring(1);
 
@@ -12,21 +13,20 @@ function Navbar() {
       menu[i].style.color = "";
     }
     document.getElementById(newStr).style.color = "white";
-    document.getElementById("navbar-sticky").style.display = "none";
   }, [newStr]);
 
   const buttonNavbar = () => {
      let navbar = document.getElementById("navbar-sticky");
-    console.log("navbar: ", navbar)
-    if (navbar.style.display === "none") {
-      navbar.style.display = "block";
-    }else{
+     setOpenNavbar((prevState) => !prevState);
+    if (openNavbar) {
       navbar.style.display = "none";
+    }else{
+      navbar.style.display = "block";
     }
   }
 
   return (
-    <nav className="bg-ec-blue px-6 sm:px-16 pt-2.5 pb-6 sm:py-3 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 dark:border-gray-600">
+    <nav className="bg-ec-blue px-6 sm:px-16 py-2.5 sm:py-3 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 dark:border-gray-600">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" className="flex items-center">
           <img
@@ -40,7 +40,7 @@ function Navbar() {
             onClick={() => buttonNavbar()}
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 text-sm bg-ec-blue text-white rounded-lg md:hidden hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-200 dark:text-gray-400 dark:hover:bg-gray-400 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 text-sm bg-ec-blue dark:bg-gray-900 text-white rounded-lg md:hidden hover:bg-ec-blue focus:outline-none focus:ring-2 focus:ring-ec-blue dark:text-gray-300 dark:hover:bg-gray-900 dark:focus:ring-gray-300"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
@@ -61,10 +61,10 @@ function Navbar() {
           </button>
         </div>
         <div
-          className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" //Hidden
+          className="hidden sm:block justify-between items-center w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 mt-4 bg-ec-blue md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
+          <ul className="flex flex-col rounded-lg p-4 mt-4 bg-ec-blue md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
             <li>
               <a
                 id="home"
@@ -117,4 +117,5 @@ function Navbar() {
     </nav>
   );
 }
+
 export { Navbar };
