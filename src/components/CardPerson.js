@@ -3,7 +3,7 @@ function CardPerson({ people }) {
     return (
       <div
         key={person.name}
-        className="flex flex-col sm:flex-row items-start gap-6 sm:w-auto sm:max-h-min p-6 sm:p-8 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+        className="flex flex-col sm:flex-row items-start  gap-6 sm:w-auto sm:max-h-min p-6 sm:p-8 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
         <div className="flex flex-col sm:w-3/4 sm:max-h-max">
           <h5 className="mb-2 text-left text-2xl font-bold font-poppins tracking-tight text-gray-900 dark:text-white">
