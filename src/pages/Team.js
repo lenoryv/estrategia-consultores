@@ -1,5 +1,6 @@
 import { Directivos, Asociados } from "../data/LocalDB";
 import { CardPerson } from "../components/CardPerson";
+import { CardVertical } from "../components/CardVertical";
 
 const Team = () => {
     return (
@@ -13,8 +14,8 @@ const Team = () => {
         <span className="flex mx-6 sm:mx-24 text-left uppercase font-poppins text-base sm:text-2xl font-medium mt-8 text-ec-blue dark:text-white">
           Consultores Asociados
         </span>
-        <section className="grid sm:grid sm:grid-cols-3 sm:grid-rows-2 flex-col sm:px-24 sm:h-full px-6 sm:mb-24 my-8 gap-6">
-          <CardPerson people={Asociados} />
+        <section className="flex sm:grid sm:grid-cols-3 sm:grid-rows-2 flex-col sm:px-24 sm:h-auto px-6 sm:mb-24 my-8 gap-6">
+          <CardVertical people={Asociados} />
         </section>
       </div>
     );
