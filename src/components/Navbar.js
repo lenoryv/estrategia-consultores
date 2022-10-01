@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 
 function Navbar() {
   const pathname = window.location.pathname;
@@ -11,24 +11,36 @@ function Navbar() {
     for (let i = 0; i < menu.length; i++) {
       menu[i].style.color = "";
     }
-    document.getElementById(newStr).style.color = "#001D6E";
+    document.getElementById(newStr).style.color = "white";
+    document.getElementById("navbar-sticky").style.display = "none";
   }, [newStr]);
 
+  const buttonNavbar = () => {
+     let navbar = document.getElementById("navbar-sticky");
+    console.log("navbar: ", navbar)
+    if (navbar.style.display === "none") {
+      navbar.style.display = "block";
+    }else{
+      navbar.style.display = "none";
+    }
+  }
+
   return (
-    <nav className="bg-white px-6 sm:px-16 py-2.5 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="bg-ec-blue px-6 sm:px-16 pt-2.5 pb-6 sm:py-3 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 dark:border-gray-600">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" className="flex items-center">
           <img
-            src="./assets/logos/logotipo20years.svg"
+            src="./assets/logos/logotipo-white.svg"
             className="mr-3 h-6 sm:h-9"
             alt="EC Logo"
           />
         </a>
         <div className="flex md:order-2">
           <button
+            onClick={() => buttonNavbar()}
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-400 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 text-sm bg-ec-blue text-white rounded-lg md:hidden hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-200 dark:text-gray-400 dark:hover:bg-gray-400 dark:focus:ring-gray-600"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
@@ -49,15 +61,15 @@ function Navbar() {
           </button>
         </div>
         <div
-          className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+          className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" //Hidden
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
+          <ul className="flex flex-col p-4 mt-4 bg-ec-blue md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
             <li>
               <a
                 id="home"
                 href="/"
-                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-900 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
+                className="py-2 pr-4 pl-3 text-gray-400 sm:text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-100 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
                 aria-current="page"
               >
                 Quiénes Somos
@@ -67,7 +79,7 @@ function Navbar() {
               <a
                 id="equipo"
                 href="/equipo"
-                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-900 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
+                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-100 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
               >
                 Equipo
               </a>
@@ -76,7 +88,7 @@ function Navbar() {
               <a
                 id="servicios"
                 href="/servicios"
-                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-900 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
+                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-100 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
               >
                 Nuestros Servicios
               </a>
@@ -85,7 +97,7 @@ function Navbar() {
               <a
                 id="clientes"
                 href="/clientes"
-                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-900 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
+                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-100 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
               >
                 Experiencia/Clientes
               </a>
@@ -94,7 +106,7 @@ function Navbar() {
               <a
                 id="encuesta"
                 href="/encuesta"
-                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-900 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
+                className="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-100 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-400 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-400"
               >
                 Consulta del Día
               </a>
