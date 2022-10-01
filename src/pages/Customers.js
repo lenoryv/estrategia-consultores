@@ -4,7 +4,7 @@ import { CardOrg } from "../components/CardOrg";
 const Customers = () => {
 
   return (
-    <div className="h-full w-full px-6 sm:px-24">
+    <div className="h-full w-full px-6 sm:px-24 dark:bg-gray-900">
       {" "}
       <h1 className="text-xl sm:text-4xl font-bold font-poppins dark:text-white mt-20 sm:mt-32">
         <small className="mr-2 font-medium font-poppins text-gray-500 dark:text-gray-400">
@@ -15,15 +15,15 @@ const Customers = () => {
           con las que hemos colaborado en los últimos años están:
         </small>
       </h1>{" "}
-      <section className="relative flex overflow-hidden md:h-auto items-center bg-gray-100 h-auto mt-6 sm:mt-16">
+      <section className="relative flex overflow-hidden md:h-auto items-center bg-gray-100 h-auto mt-6 sm:mt-16 ">
         <div
           id="cards"
-          className="flex flex-wrap justify-center h-auto sm:px-10 bg-white gap-4"
+          className="flex flex-wrap justify-center h-auto sm:px-10 bg-white gap-4 dark:bg-gray-900"
         >
           <CardOrg orgs={Organizaciones} />
         </div>
       </section>
-      <span className="flex font-sans text-base font-normal text-left my-6  text-gray-700">
+      <span className="flex font-sans text-base font-normal text-left my-6  text-gray-700 dark:text-white">
         Adicionalmente, hemos trabajado en investigación política y de opinión
         pública para otras diversas fundaciones, organizaciones políticas y
         personalidades a nivel nacional y de las regiones 6 y 7 del Ecuador,
@@ -33,7 +33,7 @@ const Customers = () => {
       </span>
       <div
         id="toast-simple"
-        className="flex items-center my-6 p-4 space-x-4 font-sans font-semibold text-xl w-full text-gray-500 bg-white rounded-lg divide-x divide-gray-200 shadow dark:text-gray-400 dark:divide-gray-700 space-x dark:bg-gray-800"
+        className="flex flex-col sm:flex-row divide-y sm:divide-y-0 gap-2 items-center my-6 p-4 sm:space-x-4 font-sans font-semibold text-xl w-full text-gray-500 bg-white rounded-lg sm:divide-x divide-gray-200 shadow dark:text-gray-400 dark:divide-gray-700 space-x dark:bg-gray-800"
         role="alert"
       >
         <svg
@@ -49,7 +49,7 @@ const Customers = () => {
           />
         </svg>
         Importante
-        <div className="flex w-3/4 pl-4 text-left text-base font-normal">
+        <div className="flex w-full sm:w-3/4 pt-2 sm:pt-0 px-4 text-left text-base font-normal">
           Fuimos la única empresa que acertó con márgenes de error menores al 1%
           en las últimas elecciones a asambleístas provinciales 2017 y en las
           anteriores elecciones para alcaldes 2014, en las provincias de El Oro,

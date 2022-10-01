@@ -1,6 +1,6 @@
 const Survey = () => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen dark:bg-gray-900">
       <section className="mt-20 sm:mt-24 h-full">
         <iframe
           title="Consulta del Dia"
