@@ -102,7 +102,7 @@ const Home = () => {
         <span className="w-full text-left uppercase font-poppins font-medium text-base text-ec-blue dark:text-white">
           Estrategia en los medios
         </span>
-        <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4 overflow-x-auto">
+        <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4 overflow-x-auto sm:pb-8">
           <Card />
         </div>
       </section>
