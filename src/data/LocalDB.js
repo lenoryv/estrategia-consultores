@@ -101,13 +101,13 @@ export const Organizaciones = [
     urlImage:
       "https://img.genial.ly/60484908cbcc3a3386f6612a/627d5c4a-6965-40e1-9390-4305224ce1c4.png",
     countries: "Loja, Machala, Ambato",
-    years: "2000- 2002- 2005 – 2009 – 2012- 2017",
+    years: "2000 – 2002 – 2005 – 2009 – 2012 – 2017",
   },
   {
     name: "Delta Publicidad",
     urlImage: "http://www.deltapublicidad.cl/logodelta.jpg",
     countries: "Quito",
-    years: "2005- 2008 -2010 -2012- 2014",
+    years: "2005 – 2008 – 2010 – 2012 – 2014",
   },
   {
     name: "American Hospital",
@@ -134,7 +134,7 @@ export const Organizaciones = [
     urlImage:
       "https://cacpeloja.fin.ec/wp-content/uploads/2018/07/cacpe-loja-logo-sticky-2x.png",
     countries: "Loja",
-    years: "2005 - 2010",
+    years: "2005 – 2010",
   },
   {
     name: "DEPROSUR E. P.",
@@ -148,28 +148,28 @@ export const Organizaciones = [
     urlImage:
       "https://lagardservice.com.ec/wp-content/uploads/2015/02/LOGO-MAYOR-BANCO-DE-LOJA.png",
     countries: "Loja",
-    years: "2009 - 2012",
+    years: "2009 – 2012",
   },
   {
     name: "GEMESEG Seguridad",
     urlImage:
       "https://gemeseg.com/wp-content/uploads/2019/12/grupoempresarial2.png",
     countries: "",
-    years: "2012 - 2022",
+    years: "2012 – 2022",
   },
   {
     name: "Banco del Estado Regional Sur",
     urlImage:
       "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
     countries: "",
-    years: "2012 – 2015 - 2016",
+    years: "2012 – 2015 – 2016",
   },
   {
     name: "Clínica San Agustín",
     urlImage:
       "https://scontent.fuio5-1.fna.fbcdn.net/v/t1.6435-9/124636037_1653959318098191_2267847704066027921_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Jx57ij3dBpQAX_WZyJL&_nc_ht=scontent.fuio5-1.fna&oh=00_AT9hbUS3f67m18skZerla8zkgR27OzrpmDKxwzaIHkFZvA&oe=635622DF",
     countries: "Loja",
-    years: "2015- 2019",
+    years: "2015 – 2019",
   },
   {
     name: "Consultor Apoyo",
@@ -183,7 +183,7 @@ export const Organizaciones = [
     urlImage:
       "https://cooperativaloja.com.ec/wp-content/uploads/2020/02/Recurso-2.png",
     countries: "Loja",
-    years: "2015 - 2019- 2021",
+    years: "2015 – 2019 – 2021",
   },
   {
     name: "Instituto Tecnológico Daniel Álvarez B.",
@@ -204,7 +204,7 @@ export const Organizaciones = [
     urlImage:
       "https://www.funerariajaramillo.com.ec/wp-content/uploads/2019/06/logo-funeraria2.png",
     countries: "Loja",
-    years: "2018 - 2020",
+    years: "2018 – 2020",
   },
   {
     name: "Ecotel TV ",
