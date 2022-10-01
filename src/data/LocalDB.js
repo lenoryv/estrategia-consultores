@@ -43,6 +43,7 @@ export const Directivos = [
       "Marketing y Publicidad Institucional de la UTPL. Docente-investigador de la misma Universidad por 23 años. Director de Educación" +
       " Continua de la UTPL de 2007 a 2014 y de 2016 a 2018. Actualmente es coordinador de Grupo de Investigación en Innovación y " +
       "Emprendimiento de UTPL. \nPresidente de la fundación CISOL, para educación a niños de sectores vulnerables.",
+    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
   {
     name: "Carla Granda Tandazo",
@@ -53,6 +54,7 @@ export const Directivos = [
       " por la UTPL. Ex Jefe de Innovación de productos de Discovery Trading Co. Guayaquil. " +
       "Ex docente de la Universidad Católica de Guayaquil. Ex Jefe de Transformación productiva " +
       "y Valor agregado en el Área de Producción del Gobierno Provincial de Loja. Representante de GLED ",
+    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
 ];
 export const Asociados = [
@@ -61,12 +63,14 @@ export const Asociados = [
     description:
       "Ph. D. en Economía del Emprendimiento por la Universidad de Padua- Italia. " +
       "Master en Economía por la Universidad de La Plata, Argentina. Docente de Pre y Posgrado de la UESS-Ecuador. ",
+    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
   {
     name: "Darío Vélez Jara  ",
     description:
       "Master en Economía por la Universidad de La Plata, Argentina. Economista de la UTPL." +
       "Director Nacional de Estadística del INEC.",
+    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
   {
     name: "Juan P. Chauvin ",
@@ -74,17 +78,20 @@ export const Asociados = [
       "PhD en Políticas Públicas y Master en Administración Pública y Desarrollo Internacional" +
       " en la Universidad de Harvard, Master en Políticas Públicas en FLACSO-Ecuador, y títulos " +
       "de B.A. en Sociología y Economía en la Universidad San Francisco de Quito",
+    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
   {
     name: "Armando Cabrera",
     description:
       "Master en Ciencias y Tecnología de la Información por la Universidad Politécnica de Madrid. " +
       " Ingeniero en Sistemas Informáticos por la UTPL. Director de la Escuela de Ingeniería en informática de la UTPL.",
+    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
   {
     name: "Vismar G. Flores",
     description:
       "Ph.D. (c) Economía, mención Administración de la Universidad de Cuyo – Argentina.  Master en Administración de empresas por la UTEG – Ecuador ",
+    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   },
 ];
 
