@@ -2,7 +2,7 @@ import { Card } from '../components/Card'
 
 const Home = () => {
   return (
-    <div className="sm:mt-18 mt-16 bg-ec-blue">
+    <div className="sm:mt-18 mt-14 bg-ec-blue">
       <section className="flex flex-col sm:flex-row sm:px-24 h-full px-6 sm:my-0 my-6">
         <div className="flex flex-col sm:w-3/4 gap-4 justify-end sm:pb-24">
           <span className="font-semibold text-4xl sm:text-8xl text-left text-white">
@@ -69,7 +69,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="flex flex-col pt-6 pb-20 sm:px-24 px-6 py-6 h-full gap-6">
+      <section className="flex flex-col pt-6 pb-8 sm:pb-12 sm:px-24 px-6 py-6 h-full gap-6 sm:gap-0">
         <div className="flex">
           <span className="uppercase font-poppins font-medium text-base text-white">
             Nuestros Servcios
