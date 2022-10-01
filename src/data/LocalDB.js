@@ -46,7 +46,7 @@ export const Directivos = [
   },
   {
     name: "Carla Granda Tandazo",
-    position: "Director General",
+    position: "Directora  de Proyectos",
     description:
       "Master en Ciencia e Ingeniería de Alimentos por la Universidad Politécnica de Valencia." +
       "Ingeniera en Industrias Alimenticias por la UTPL. Master en Diseño y Gestión de Proyectos" +
