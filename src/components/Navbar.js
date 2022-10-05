@@ -19,15 +19,22 @@ function Navbar() {
      let navbar = document.getElementById("navbar-sticky");
      setOpenNavbar((prevState) => !prevState);
     if (openNavbar) {
+      console.log("Cerrar")
       navbar.style.display = "none";
     }else{
       navbar.style.display = "block";
+      console.log("Abrir")
     }
   }
 
+  function botFunction() {
+    buttonNavbar();
+    window.scrollTo(0, document.body.scrollHeight);
+  }
+
   return (
-    <nav className="bg-ec-blue px-6 sm:px-16 py-2.5 sm:py-3 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 dark:border-gray-600">
-      <div className="container flex flex-wrap justify-between items-center mx-auto">
+    <nav className="bg-ec-blue px-6 sm:px-8 py-2.5 sm:py-3 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 dark:border-gray-600">
+      <div className="flex flex-wrap justify-between items-center m-auto">
         <a href="/" className="flex items-center">
           <img
             src="./assets/logos/logotipo-white.svg"
@@ -64,7 +71,7 @@ function Navbar() {
           className="hidden sm:block justify-between items-center w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
         >
-          <ul className="flex flex-col rounded-lg p-4 mt-4 bg-ec-blue md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
+          <ul className="flex flex-col gap-2 rounded-lg p-4 mt-4 bg-ec-blue md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
             <li>
               <a
                 id="home"
@@ -111,7 +118,23 @@ function Navbar() {
                 Consulta del Día
               </a>
             </li>
+            <li className="md:hidden">
+              <button
+                className="text-gray-400 py-2 pr-4 pl-3 md:hidden"
+                onClick={() => botFunction()}
+              >
+                Contactos
+              </button>
+            </li>
           </ul>
+        </div>
+        <div className="order-first md:order-last hidden md:block">
+          <button
+            className="bg-ec-blue text-white py-2 px-4 rounded font-poppins text-base"
+            onClick={() => botFunction()}
+          >
+            Contactos
+          </button>
         </div>
       </div>
     </nav>
