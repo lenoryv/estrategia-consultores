@@ -21,13 +21,75 @@ export const Videos = [
     description:
       "Bienvenidos a nuestra comunidad de YouTube. Somos Radio Pichincha, el otro relato.",
   },
+];
+
+export const Services = [
+  {
+    id: "0",
+    name: "Estudios de Opinión Pública (Política)",
+    href: "/",
+    color: "#ef4444",
+  },
+  {
+    id: "1",
+    name: "Estudios cuantitativos de mercado",
+    href: "/",
+    color: "#f97316",
+  },
+  {
+    id: "2",
+    name: "Análisis cualitativos",
+    href: "/",
+    color: "#eab308",
+  },
   {
     id: "3",
-    url: "https://www.youtube.com/watch?v=HbpjNXmyUmg",
-    title: "Resultados del Estudio sobre el primer año de gestión del gobierno",
-    description:
-      "Bienvenidos a nuestra comunidad de YouTube. Somos Radio Pichincha, el otro relato.",
-  }
+    name: "Diseño y evaluación de proyectos",
+    href: "/",
+    color: "#84cc16",
+  },
+  {
+    id: "4",
+    name: "Design Thinking para innovación de productos y servicios",
+    href: "/",
+    color: "#22c55e",
+  },
+  {
+    id: "5",
+    name: "Levantamiento y diseño de Procesos",
+    href: "/",
+    color: "#10b981",
+  },
+  {
+    id: "6",
+    name: "Modelos de negocios",
+    href: "/",
+    color: "#14b8a6",
+  },
+  {
+    id: "7",
+    name: "Asesoría en formulación de proyectos",
+    href: "/",
+    color: "#06b6d4",
+  },
+  {
+    id: "8",
+    name: "Análisis estadístico y financiero",
+    href: "/",
+    color: "#0ea5e9",
+  },
+  {
+    id: "9",
+    name: "Planes de marketing y publicidad",
+    href: "/",
+    color: "#3b82f6",
+  },
+  {
+    id: "10",
+    name: "Asesoría en comunicación institucional",
+    href: "/",
+    color: "#6366f1",
+  },
 ];
 
 export const Directivos = [
@@ -43,7 +105,7 @@ export const Directivos = [
       "Marketing y Publicidad Institucional de la UTPL. Docente-investigador de la misma Universidad por 23 años. Director de Educación" +
       " Continua de la UTPL de 2007 a 2014 y de 2016 a 2018. Actualmente es coordinador de Grupo de Investigación en Innovación y " +
       "Emprendimiento de UTPL. \nPresidente de la fundación CISOL, para educación a niños de sectores vulnerables.",
-    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    img: "/assets/img/carlos-granda.jpeg",
   },
   {
     name: "Carla Granda Tandazo",
@@ -54,7 +116,7 @@ export const Directivos = [
       " por la UTPL. Ex Jefe de Innovación de productos de Discovery Trading Co. Guayaquil. " +
       "Ex docente de la Universidad Católica de Guayaquil. Ex Jefe de Transformación productiva " +
       "y Valor agregado en el Área de Producción del Gobierno Provincial de Loja. Representante de GLED ",
-    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    img: "/assets/img/carla-granda.jpeg",
   },
 ];
 export const Asociados = [
@@ -107,12 +169,13 @@ export const Organizaciones = [
     name: "Diario la Hora",
     urlImage:
       "https://img.genial.ly/60484908cbcc3a3386f6612a/627d5c4a-6965-40e1-9390-4305224ce1c4.png",
-    countries: "Loja, Machala, Ambato",
+    countries: "Loja, Quito, Ambato",
     years: "2000 – 2002 – 2005 – 2009 – 2012 – 2017",
   },
   {
     name: "Delta Publicidad",
-    urlImage: "http://www.deltapublicidad.cl/logodelta.jpg",
+    urlImage:
+      "https://s3-eu-west-1.amazonaws.com/cdn1.mullenlowegroup.com/uploads/2014/10/mullenlowe1.png",
     countries: "Quito",
     years: "2005 – 2008 – 2010 – 2012 – 2014",
   },
@@ -167,7 +230,7 @@ export const Organizaciones = [
   {
     name: "Banco del Estado Regional Sur",
     urlImage:
-      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
+      "https://cdnimg.bnamericas.com/QECtubkJcmutDefzofVPmLpOEWlJIyRLizuSPkbZXsdstfDHpRvhIeScKGLbmAdv.png",
     countries: "",
     years: "2012 – 2015 – 2016",
   },
@@ -230,7 +293,7 @@ export const Organizaciones = [
   {
     name: "Colegio Eugenio Espejo",
     urlImage:
-      "https://www.uenikolastesla.com/wp-content/uploads/2019/06/cropped-LOGO-Eugenio-Espejo-2018-original-JPEG.jpg",
+      "https://scontent.fuio13-1.fna.fbcdn.net/v/t1.6435-9/74332606_2399811686950355_724443957861285888_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pRxFXf8XDvoAX8qikTN&_nc_ht=scontent.fuio13-1.fna&oh=00_AT8REWLET6oD-Kbsi58V8yRxKampn5egIOifZCdlhC_DWw&oe=635F346C",
     countries: "Loja",
     years: "2021",
   },
@@ -247,5 +310,11 @@ export const Organizaciones = [
       "https://medihospital.com.ec/wp-content/uploads/2020/05/mdh-logo-rectangular.svg",
     countries: "Loja",
     years: "2021",
+  },
+  {
+    name: "Municipio de Loja",
+    urlImage: "https://www.loja.gob.ec/files/image/imagenes/escudo-loja.jpg",
+    countries: "Loja",
+    years: "2019 – 2021",
   },
 ];
