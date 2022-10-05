@@ -16,7 +16,7 @@ function CardPerson({ people }) {
             {person.description}
           </p>
         </div>
-        <div className="flex flex-col sm:w-1/2 rounded-lg overflow-hidden">
+        <div className="flex flex-col sm:w-[400px] sm:h-[400px] rounded-lg overflow-hidden">
           <img src={person?.img} alt="Person" />
         </div>
       </div>
