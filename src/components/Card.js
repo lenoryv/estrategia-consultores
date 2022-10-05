@@ -5,13 +5,13 @@ function Card() {
     return (
       <div
         key={video.id}
-        className="w-auto bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+        className="w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="/">
           <iframe
             className="w-full sm:w-80 h-52 rounded-t-lg"
             src={
-              "https://www.youtube-nocookie.com/embed/" +
+              "https://www.youtube.com/embed/" +
               video.url.substring(32)
             }
             title="Carlos Granda l Resultados del Estudio sobre el primer año de gestión del gobierno"
@@ -30,7 +30,7 @@ function Card() {
           </p>
           <a
             href={
-              "https://www.youtube-nocookie.com/embed/" +
+              "https://www.youtube.com/embed/" +
               video.url.substring(32)
             }
             className="inline-flex items-center py-3 px-6 text-sm font-sans font-medium text-center text-white bg-ec-blue rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
