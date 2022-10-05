@@ -1,62 +1,56 @@
 import { Card } from '../components/Card'
+import { Video } from '../components/Video';
+import { CardImage } from '../components/CardImage';
+import { Services } from '../data/LocalDB';
+import { BtnService} from '../components/BtnService';
 
 const Home = () => {
   return (
     <div className="sm:mt-18 mt-14 bg-ec-blue dark:bg-gray-900">
       <section className="flex flex-col sm:flex-row sm:px-24 h-full px-6 sm:my-0 my-6">
-        <div className="flex flex-col sm:w-3/4 gap-4 justify-end sm:pb-24">
-          <span className="font-semibold text-4xl sm:text-8xl text-left text-white">
+        <div className="flex flex-col sm:w-3/4 gap-4 justify-end sm:pb-0">
+          <span className="font-extrabold font-montserrat text-4xl sm:text-6xl text-left text-white uppercase">
             Estrategia Consultores
           </span>
-          <span className="font-normal text-base sm:text-base sm:w-3/4 text-left text-white">
-            Es una empresa de consultoría centrada en la generación de
-            información y análisis de mercados, opinión pública, procesos de
-            innovación y comunicación integral, para organizaciones públicas y
-            privadas a nivel nacional.
+          <span className="font-light text-base sm:text-base sm:w-3/4 text-left text-white">
+            Es una empresa dedicada al análisis de mercados y estudios de
+            opinión pública.
+            <br />
+            Realizamos además asesoría empresarial en innovación, planeación,
+            marketing y comunicación integral.
           </span>
         </div>
-        <div className="flex flex-col items-center sm:flex-row sm:relative mt-6 sm:mt-0">
-          <div className="hidden sm:flex absolute top-8 left-16 bg-ec-variant-blue rounded-full w-10 h- 10 sm:w-80 sm:h-80"></div>
+        <div className="flex flex-col items-center gap-10 pt-8 sm:mt-0">
           <img
-            className="z-10 sm:pb-16 hidden sm:flex w-auto h-auto sm:w-full sm:h-full"
-            src="./assets/img/person1.png"
-            alt="person"
+            className="z-10 hidden sm:flex w-64 h-64"
+            src="./assets/logos/isotipo-metallic.svg"
+            alt="Isotipo"
           />
-          <button
-            onClick={() => console.log("Consulta del Dia")}
+          <a
+            href="/encuesta"
             type="button"
-            className="hover:drop-shadow-[0_4px_80px_#5F6F94] flex w-80 justify-center items-center gap-4 font-sans tracking-wide sm:absolute bottom-0 bg-white z-20  px-8 py-4 rounded-md right-0"
+            className="hover:drop-shadow-[0_4px_80px_#5F6F94] flex w-80 justify-center items-center font-sans tracking-wide bg-white z-20 px-8 py-4 rounded-md"
           >
             <img
-              className="w-6 h-6 sm:h-auto sm:w-auto"
+              className="w-6 h-6 sm:h-auto sm:w-10"
               src="./assets/icons/question-answer-v2.svg"
               alt="icon button"
             />
-            <a
-              href="/encuesta"
-              className="text-ec-blue text-xs sm:text-sm font-sans font-bold uppercase"
-            >
-              Responde la consulta del día
-            </a>
-          </button>
+            <span className="text-ec-blue text-xs sm:text-base font-montserrat font-bold uppercase">
+              Responde nuestra encuesta de hoy
+            </span>
+          </a>
         </div>
       </section>
       <section className="flex flex-col px-6 sm:px-24 py-8 h-full gap-6 bg-white sm:mt-16 dark:bg-gray-900">
         <div className="flex">
-          <span className="uppercase font-poppins text-base font-medium text-ec-blue dark:text-white">
+          <span className="uppercase font-montserrat text-base font-medium text-ec-blue dark:text-white">
             Quiénes Somos
           </span>
         </div>
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-16">
-          <div
-            className="h-64 w-auto sm:h-96 sm:w-96 rounded-sm sm:rounded-3xl bg-cover"
-            style={{ backgroundImage: "url(./assets/img/img1.jpg)" }}
-          ></div>
-          <div className="flex flex-col sm:w-3/4 text-left justify-center gap-4">
-            <span className="font-poppins font-medium text-2x1 text-black dark:text-white">
-              Empresa de Consultoría
-            </span>
-            <span className="font-sans font-normal text-base text-gray-700 dark:text-white">
+        <div className="flex w-full flex-col sm:flex-row gap-4 sm:gap-8 grid-cols-3">
+          <div className="w-full">
+            <span className="flex font-sans font-normal text-left text-base text-gray-700 dark:text-white sm:mr-6">
               Constituimos un grupo consultor multidisciplinario integrado por
               profesionales con más de 22 años de experiencia en las áreas de
               Opinión Pública, Investigación de Mercados, Economía, Marketing,
@@ -67,42 +61,42 @@ const Home = () => {
               nacional de operación.
             </span>
           </div>
+          <div className="w-full">
+            <Video />
+          </div>
+          <div className="w-full">
+            <CardImage />
+          </div>
         </div>
       </section>
-      <section className="flex flex-col pt-6 pb-8 sm:pb-12 sm:px-24 px-6 py-6 h-full gap-6 sm:gap-0">
-        <div className="flex">
-          <span className="uppercase font-poppins font-medium text-base text-white">
-            Nuestros Servcios
-          </span>
-        </div>
+      <section className="flex flex-col pt-6 pb-8 sm:pb-12 sm:px-24 px-6 py-6 h-full gap-6 sm:gap-0 bg-slate-100">
+        <span className="flex uppercase font-montserrat font-medium text-base text-ec-blue">
+          Nuestros Servicios
+        </span>
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-16">
-          <div className="flex flex-col sm:w-1/4 text-left justify-center gap-4">
-            <span className="font-poppins font-medium text-2x1  text-white">
-              Ofrecemos
-            </span>
-            <span className="font-sans font-normal text-base  text-white">
-              Servicios sobre investigación de mercados, análisis, diseño,
-              planes y asesorías.
+          <div className="flex flex-col sm:w-1/4 text-left justify-center gap-4 sm:gap-8 items-center sm:items-start">
+            <span className="font-montserrat font-light text-base  text-ec-blue">
+              Entre los servicios ofrecidos por ESTRATEGIA CONSULTORES están:
             </span>
             <a
               href="/servicios"
               type="button"
-              className="flex w-32 px-6 py-3 border bg-white border-ec-blue text-sm text-ec-blue font-sans font-semibold rounded-md justify-center mt:4 sm:mt-11 hover:text-black hover:bg-gray-300"
+              className="flex w-32 items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-ec-blue focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-ec-blue hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
               Saber Más
             </a>
           </div>
-          <div
-            className="h-64 w-auto sm:h-96 rounded-sm sm:rounded-3xl bg-cover sm:w-3/4"
-            style={{ backgroundImage: "url(./assets/img/img2.jpg)" }}
-          ></div>
+          <div className="grid flex-nowrap gap-4 h-full w-auto sm:h-auto rounded-sm sm:rounded-3xl bg-cover sm:w-3/4 sm:grid-cols-4 sm:auto-rows-auto">
+            <BtnService Services={Services} />
+          </div>
         </div>
       </section>
-      <section className="w-full flex flex-col justify-center items-center px-6 sm:px-24 py-8 bg-white dark:bg-gray-900">
+      <section className="w-full flex flex-col justify-center items-center px-6 sm:px-24 py-8 bg-white dark:bg-gray-900 gap-4 sm:gap-8">
         <span className="w-full text-left uppercase font-poppins font-medium text-base text-ec-blue dark:text-white">
           Estrategia en los medios
         </span>
-        <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4 overflow-x-auto sm:pb-8">
+        <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4sm:pb-8">
+          {/* overflow-x-auto  */}
           <Card />
         </div>
       </section>

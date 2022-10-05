@@ -6,12 +6,12 @@ const Customers = () => {
   return (
     <div className="h-full w-full px-6 sm:px-24 dark:bg-gray-900">
       {" "}
-      <h1 className="text-xl sm:text-4xl font-bold font-poppins dark:text-white mt-20 sm:mt-32">
-        <small className="mr-2 font-medium font-poppins text-gray-500 dark:text-gray-400">
+      <h1 className="text-xl sm:text-4xl font-bold font-montserrat dark:text-white mt-20 sm:mt-32">
+        <small className="mr-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
           Entre las
         </small>
         Organizaciones
-        <small className="ml-2 font-medium font-poppins text-gray-500 dark:text-gray-400">
+        <small className="ml-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
           con las que hemos colaborado en los últimos años están:
         </small>
       </h1>{" "}

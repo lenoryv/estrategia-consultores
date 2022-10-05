@@ -1,12 +1,12 @@
 const Services = () => {
     return (
       <div className="h-full w-full px-6 pb-10 sm:px-24 dark:bg-gray-900">
-        <h1 className="text-xl sm:text-4xl font-bold font-poppins dark:text-white mt-20 sm:mt-32 sm:mb-10">
-          <small className="mr-2 font-medium font-poppins text-gray-500 dark:text-gray-400">
+        <h1 className="text-xl sm:text-4xl font-bold font-montserrat dark:text-white mt-20 sm:mt-32 sm:mb-10">
+          <small className="mr-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
             Entre los servicios ofrecidos por
           </small>
           Estrategia Consultores
-          <small className="ml-2 font-medium font-poppins text-gray-500 dark:text-gray-400">
+          <small className="ml-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
             están:
           </small>
         </h1>
