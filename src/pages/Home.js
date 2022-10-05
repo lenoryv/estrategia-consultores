@@ -43,7 +43,7 @@ const Home = () => {
         </div>
       </section>
       <section className="flex flex-col px-6 sm:px-24 py-8 h-full gap-6 bg-white sm:mt-16 dark:bg-gray-900">
-        <div className="grid w-full flex-col sm:flex-row gap-4 sm:gap-8 grid-cols-3 items-center">
+        <div className="flex sm:grid w-full flex-col sm:flex-row gap-4 sm:gap-8 grid-cols-3 items-center">
           <div className="flex flex-col w-full justify-start items-start gap-4">
             <span className="uppercase font-montserrat text-base font-medium text-ec-blue dark:text-white">
               Quiénes Somos
