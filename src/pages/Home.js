@@ -43,14 +43,12 @@ const Home = () => {
         </div>
       </section>
       <section className="flex flex-col px-6 sm:px-24 py-8 h-full gap-6 bg-white sm:mt-16 dark:bg-gray-900">
-        <div className="flex">
-          <span className="uppercase font-montserrat text-base font-medium text-ec-blue dark:text-white">
-            Quiénes Somos
-          </span>
-        </div>
-        <div className="flex w-full flex-col sm:flex-row gap-4 sm:gap-8 grid-cols-3">
-          <div className="w-full">
-            <span className="flex font-sans font-normal text-left text-base text-gray-700 dark:text-white sm:mr-6">
+        <div className="flex w-full flex-col sm:flex-row gap-4 sm:gap-8 grid-cols-3 items-center">
+          <div className="flex flex-col w-full justify-start items-start gap-4">
+            <span className="uppercase font-montserrat text-base font-medium text-ec-blue dark:text-white">
+              Quiénes Somos
+            </span>
+            <span className="flex font-sans font-normal text-left text-sm text-gray-700 dark:text-white sm:mr-6">
               Constituimos un grupo consultor multidisciplinario integrado por
               profesionales con más de 22 años de experiencia en las áreas de
               Opinión Pública, Investigación de Mercados, Economía, Marketing,
@@ -69,12 +67,12 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="flex flex-col pt-6 pb-8 sm:pb-12 sm:px-24 px-6 py-6 h-full gap-6 sm:gap-0 bg-slate-100">
-        <span className="flex uppercase font-montserrat font-medium text-base text-ec-blue">
-          Nuestros Servicios
-        </span>
+      <section className="flex flex-col pt-6 pb-8 sm:pt-10 sm:px-24 px-6 py-6 h-full gap-6 sm:gap-0 bg-slate-100">
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-16">
           <div className="flex flex-col sm:w-1/4 text-left justify-center gap-4 sm:gap-8 items-center sm:items-start">
+            <span className="flex uppercase font-montserrat font-medium text-base text-ec-blue">
+              Nuestros Servicios
+            </span>
             <span className="font-montserrat font-light text-base  text-ec-blue">
               Entre los servicios ofrecidos por ESTRATEGIA CONSULTORES están:
             </span>
