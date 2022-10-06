@@ -60,7 +60,11 @@ const Home = () => {
             </span>
           </div>
           <div className="w-full">
-            <Video />
+            <Video
+              Video={
+                "https://www.youtube.com/embed/P-ltn1kC9EY?start=445&end=620"
+              }
+            />
           </div>
           <div className="w-full">
             <CardImage />
