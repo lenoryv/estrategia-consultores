@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
 
 function Navbar() {
-  const [openNavbar, setOpenNavbar] = useState(false);
+  const [openNavbar, setOpenNavbar] = useState(true);
+
   const pathname = window.location.pathname;
   let newStr = pathname.substring(1);
 
-  if (pathname==="/") newStr="home";
+  let mql = window.matchMedia("(min-width: 768px)");
+
+  if (pathname === "/") newStr = "home";
 
   useEffect(() => {
     let menu = document.getElementsByClassName("block");
@@ -15,21 +18,38 @@ function Navbar() {
     document.getElementById(newStr).style.color = "white";
   }, [newStr]);
 
-  const buttonNavbar = () => {
-     let navbar = document.getElementById("navbar-sticky");
-     setOpenNavbar((prevState) => !prevState);
-    if (openNavbar) {
-      console.log("Cerrar")
-      navbar.style.display = "none";
-    }else{
+  window.addEventListener("resize", function () {
+    let navbar = document.getElementById("navbar-sticky");
+    navbar = document.getElementById("navbar-sticky");
+    if (mql.matches) {
       navbar.style.display = "block";
-      console.log("Abrir")
+    } else {
+      navbar.style.display = "none";
     }
-  }
+  });
 
-  function botFunction() {
+  const buttonNavbar = () => {
+    setOpenNavbar((prevState) => !prevState);
+    let navbar = document.getElementById("navbar-sticky");
+    console.log(openNavbar);
+    if (openNavbar && !mql.matches) {
+      navbar.style.display = "block";
+      console.log("Abrir");
+    } else if (!openNavbar && !mql.matches) {
+      navbar.style.display = "none";
+      console.log("Cerrar");
+    } else {
+      navbar.style.display = "block";
+      console.log("Abrir SC");
+    }
+  };
+
+  function scrollBottom() {
     buttonNavbar();
-    window.scrollTo(0, document.body.scrollHeight);
+    let element = document.querySelector("footer");
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
   }
 
   return (
@@ -121,7 +141,7 @@ function Navbar() {
             <li className="md:hidden">
               <button
                 className="text-gray-400 py-2 pr-4 pl-3 md:hidden"
-                onClick={() => botFunction()}
+                onClick={() => scrollBottom()}
               >
                 Contactos
               </button>
@@ -131,7 +151,7 @@ function Navbar() {
         <div className="order-first md:order-last hidden md:block">
           <button
             className="bg-ec-blue text-white py-2 px-4 rounded font-poppins text-base"
-            onClick={() => botFunction()}
+            onClick={() => scrollBottom()}
           >
             Contactos
           </button>
