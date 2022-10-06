@@ -1,7 +1,7 @@
 import { Card } from '../components/Card'
 import { Video } from '../components/Video';
 import { CardImage } from '../components/CardImage';
-import { Services } from '../data/LocalDB';
+import { MyServices } from '../data/LocalDB';
 import { BtnService} from '../components/BtnService';
 
 const Home = () => {
@@ -85,7 +85,7 @@ const Home = () => {
             </a>
           </div>
           <div className="grid flex-nowrap gap-4 h-full w-auto sm:h-auto rounded-sm sm:rounded-3xl bg-cover sm:w-3/4 grid-cols-2 sm:grid-cols-4 sm:auto-rows-auto">
-            <BtnService Services={Services} />
+            <BtnService Services={MyServices} />
           </div>
         </div>
       </section>
