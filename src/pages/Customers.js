@@ -18,7 +18,7 @@ const Customers = () => {
       <section className="relative flex overflow-hidden md:h-auto items-center bg-gray-100 h-auto mt-6 sm:mt-10 ">
         <div
           id="cards"
-          className="py-2 flex flex-wrap justify-center h-auto sm:px-10 bg-white gap-4 dark:bg-gray-900"
+          className="pb-6 px-4 flex flex-wrap justify-center h-auto sm:px-10 bg-white gap-4 dark:bg-gray-900"
         >
           <CardOrg orgs={Organizaciones} />
         </div>
