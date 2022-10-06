@@ -6,9 +6,9 @@ function Video() {
           className="w-full sm:w-full h-[354px] rounded-lg"
           src="https://www.youtube.com/embed/SN3t8qiTa2Q"
           title="Cómo incorporar videos y listas de reproducción"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </a>
     </div>

@@ -2,7 +2,7 @@ function CardImage () {
     return (
       <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <div className="p-5">
-          <span class="flex mb-2 text-xs text-left font-poppins font-bold tracking-tight text-gray-900 dark:text-white uppercase">
+          <span className="flex mb-2 text-xs text-left font-poppins font-bold tracking-tight text-gray-900 dark:text-white uppercase">
             05 de octubre de 2022
           </span>
           <p className="flex text-left mb-2 font-sans font-light text-lg text-gray-700 dark:text-gray-400">
