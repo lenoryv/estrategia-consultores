@@ -23,72 +23,105 @@ export const Videos = [
   },
 ];
 
-export const Services = [
+export const MyServices = [
   {
     id: "0",
     name: "Estudios de Opinión Pública (Política)",
     href: "/",
     color: "#ef4444",
+    img: "https://images.pexels.com/photos/4570693/pexels-photo-4570693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "1",
     name: "Estudios cuantitativos de mercado",
     href: "/",
     color: "#f97316",
+    img: "https://images.pexels.com/photos/8837507/pexels-photo-8837507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "2",
     name: "Análisis cualitativos",
     href: "/",
     color: "#eab308",
+    img: "https://images.pexels.com/photos/5439152/pexels-photo-5439152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "3",
     name: "Diseño y evaluación de proyectos",
     href: "/",
     color: "#84cc16",
+    img: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "4",
     name: "Design Thinking para innovación de productos y servicios",
     href: "/",
     color: "#22c55e",
+    img: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "5",
     name: "Levantamiento y diseño de Procesos",
     href: "/",
     color: "#10b981",
+    img: "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "6",
     name: "Modelos de negocios",
     href: "/",
     color: "#14b8a6",
+    img: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "7",
     name: "Asesoría en formulación de proyectos",
     href: "/",
     color: "#06b6d4",
+    img: "https://images.pexels.com/photos/12942548/pexels-photo-12942548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "8",
     name: "Análisis estadístico y financiero",
     href: "/",
     color: "#0ea5e9",
+    img: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "9",
     name: "Planes de marketing y publicidad",
     href: "/",
     color: "#3b82f6",
+    img: "https://images.pexels.com/photos/6483583/pexels-photo-6483583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
   {
     id: "10",
     name: "Asesoría en comunicación institucional",
     href: "/",
     color: "#6366f1",
+    img: "https://images.pexels.com/photos/7156097/pexels-photo-7156097.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
 ];
 
@@ -153,7 +186,7 @@ export const Asociados = [
     name: "Vismar G. Flores",
     description:
       "Ph.D. (c) Economía, mención Administración de la Universidad de Cuyo – Argentina.  Master en Administración de empresas por la UTEG – Ecuador ",
-    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    img: "/assets/img/vismar-flores.jpeg",
   },
 ];
 
