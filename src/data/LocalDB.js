@@ -2,24 +2,18 @@
 export const Videos = [
   {
     id: "0",
-    url: "https://www.youtube.com/watch?v=HbpjNXmyUmg",
-    title: "Resultados del Estudio sobre el primer año de gestión del gobierno",
+    url: "https://www.youtube.com/watch?v=P-ltn1kC9EY?start=445&end=620",
+    title: "Vera... ¡A Su Manera! - FRAUDE EN MANABI con Carlos Vera",
     description:
-      "Bienvenidos a nuestra comunidad de YouTube. Somos Radio Pichincha, el otro relato.",
+      "El periodista Carlos Vera presentó los datos de nuestro estudio nacional en TC",
   },
   {
     id: "1",
-    url: "https://www.youtube.com/watch?v=HbpjNXmyUmg",
-    title: "Resultados del Estudio sobre el primer año de gestión del gobierno",
+    url: "https://www.youtube.com/watch?v=mL0sswYOW8M",
+    title:
+      "Encuesta de Estratégica ubica a Arauz con el 22 % de la intención del voto, cortesía de Maxtvonline",
     description:
-      "Bienvenidos a nuestra comunidad de YouTube. Somos Radio Pichincha, el otro relato.",
-  },
-  {
-    id: "2",
-    url: "https://www.youtube.com/watch?v=HbpjNXmyUmg",
-    title: "Resultados del Estudio sobre el primer año de gestión del gobierno",
-    description:
-      "Bienvenidos a nuestra comunidad de YouTube. Somos Radio Pichincha, el otro relato.",
+      "Carlos Granda, director de Estrategia Consultores, en reciente encuesta le da el primer lugar en la intención del voto a Andrés Arauz, de la Listas 1-5, seguido de Guillermo Lasso, de la alianza CREO - PSC, y un tercer lugar a Yaku Pérez, del movimiento indígena. La novedad es que hubo dos papeletas, una con Alvaro Noboa y otra sin él, en ambas Arauz lidera el primer pelotón.",
   },
 ];
 
@@ -89,7 +83,7 @@ export const MyServices = [
   },
   {
     id: "7",
-    name: "Asesoría en formulación de proyectos",
+    name: "Asesoría para emprendimiento",
     href: "/",
     color: "#06b6d4",
     img: "https://images.pexels.com/photos/12942548/pexels-photo-12942548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -164,8 +158,8 @@ export const Asociados = [
     name: "Darío Vélez Jara  ",
     description:
       "Master en Economía por la Universidad de La Plata, Argentina. Economista de la UTPL." +
-      "Director Nacional de Estadística del INEC.",
-    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      " Director Nacional de Estadística del INEC.",
+    img: "/assets/img/dario-velez.jpeg",
   },
   {
     name: "Juan P. Chauvin ",
@@ -197,6 +191,7 @@ export const Organizaciones = [
       "http://smartland.utpl.edu.ec/loja2030/sites/default/files/2019-02/logo_temp.png",
     countries: "Loja - Ecuador",
     years: "2014 – 2015 – 2016",
+    color: "#ef4444",
   },
   {
     name: "Diario la Hora",
@@ -204,6 +199,7 @@ export const Organizaciones = [
       "https://img.genial.ly/60484908cbcc3a3386f6612a/627d5c4a-6965-40e1-9390-4305224ce1c4.png",
     countries: "Loja, Quito, Ambato",
     years: "2000 – 2002 – 2005 – 2009 – 2012 – 2017",
+    color: "#f97316",
   },
   {
     name: "Delta Publicidad",
@@ -211,12 +207,14 @@ export const Organizaciones = [
       "https://s3-eu-west-1.amazonaws.com/cdn1.mullenlowegroup.com/uploads/2014/10/mullenlowe1.png",
     countries: "Quito",
     years: "2005 – 2008 – 2010 – 2012 – 2014",
+    color: "#f59e0b",
   },
   {
     name: "American Hospital",
     urlImage: "https://sdaho.org/wp-content/uploads/2017/07/AHA_1.png",
     countries: "Cuenca",
     years: "2011",
+    color: "#eab308",
   },
   {
     name: "FAPECAFES",
@@ -224,6 +222,7 @@ export const Organizaciones = [
       "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/231238508_110748587922766_2645707627544111303_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=A0lCKEGu3ecAX9nZJ-z&_nc_oc=AQn6tb80Q8aJ2JjnTIfpGOwbh7owogIjzwkdsKxRuNkMNZtems7OiYk03daU8aCp6Wo&tn=NJoPJd9sev2iUMy6&_nc_ht=scontent.fuio5-1.fna&oh=00_AT_hLRYHphY-_PXF0K9DOWRE14rPW977k-6PjynkNFU9Xw&oe=63353F14",
     countries: "Loja, Zamora",
     years: "2008",
+    color: "#84cc16",
   },
   {
     name: "CEDATOS",
@@ -231,6 +230,7 @@ export const Organizaciones = [
       "https://pbs.twimg.com/profile_images/881322749343526912/q_cgqBG4_400x400.jpg",
     countries: "Loja, Zamora",
     years: "2008",
+    color: "#22c55e",
   },
   {
     name: "CACPE",
@@ -238,6 +238,7 @@ export const Organizaciones = [
       "https://cacpeloja.fin.ec/wp-content/uploads/2018/07/cacpe-loja-logo-sticky-2x.png",
     countries: "Loja",
     years: "2005 – 2010",
+    color: "#10b981",
   },
   {
     name: "DEPROSUR E. P.",
@@ -245,6 +246,7 @@ export const Organizaciones = [
       "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
     countries: "",
     years: "2010",
+    color: "#14b8a6",
   },
   {
     name: "Banco de Loja",
@@ -252,6 +254,7 @@ export const Organizaciones = [
       "https://lagardservice.com.ec/wp-content/uploads/2015/02/LOGO-MAYOR-BANCO-DE-LOJA.png",
     countries: "Loja",
     years: "2009 – 2012",
+    color: "#06b6d4",
   },
   {
     name: "GEMESEG Seguridad",
@@ -259,6 +262,7 @@ export const Organizaciones = [
       "https://gemeseg.com/wp-content/uploads/2019/12/grupoempresarial2.png",
     countries: "",
     years: "2012 – 2022",
+    color: "#0ea5e9",
   },
   {
     name: "Banco del Estado Regional Sur",
@@ -266,6 +270,7 @@ export const Organizaciones = [
       "https://cdnimg.bnamericas.com/QECtubkJcmutDefzofVPmLpOEWlJIyRLizuSPkbZXsdstfDHpRvhIeScKGLbmAdv.png",
     countries: "",
     years: "2012 – 2015 – 2016",
+    color: "#3b82f6",
   },
   {
     name: "Clínica San Agustín",
@@ -273,6 +278,7 @@ export const Organizaciones = [
       "https://scontent.fuio5-1.fna.fbcdn.net/v/t1.6435-9/124636037_1653959318098191_2267847704066027921_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Jx57ij3dBpQAX_WZyJL&_nc_ht=scontent.fuio5-1.fna&oh=00_AT9hbUS3f67m18skZerla8zkgR27OzrpmDKxwzaIHkFZvA&oe=635622DF",
     countries: "Loja",
     years: "2015 – 2019",
+    color: "#6366f1",
   },
   {
     name: "Consultor Apoyo",
@@ -280,6 +286,7 @@ export const Organizaciones = [
       "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/305930746_446313747526795_2973143434750599683_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2ImCgx6jOzwAX_behv6&_nc_ht=scontent.fuio5-1.fna&oh=00_AT-F7SSVgBc4sxnvl0JDJVdE8Z0LaSOnW6fxW0JPjm8S3Q&oe=63364B3A",
     countries: "Quito",
     years: "2014",
+    color: "#8b5cf6",
   },
   {
     name: "Cooperativa de Transportes Loja",
@@ -287,6 +294,7 @@ export const Organizaciones = [
       "https://cooperativaloja.com.ec/wp-content/uploads/2020/02/Recurso-2.png",
     countries: "Loja",
     years: "2015 – 2019 – 2021",
+    color: "#a855f7",
   },
   {
     name: "Instituto Tecnológico Daniel Álvarez B.",
@@ -294,6 +302,7 @@ export const Organizaciones = [
       "https://scontent.fuio5-1.fna.fbcdn.net/v/t1.6435-9/54428310_1191577861003929_5068427946084007936_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_ohc=tS7dRwWfbggAX8BxMQV&_nc_ht=scontent.fuio5-1.fna&oh=00_AT-t2UJAU2euGq1cWp3YCWpg766cV67DBqVRjohz2HnnOw&oe=635518B2",
     countries: "Loja",
     years: "2016",
+    color: "#d946ef",
   },
   {
     name: "Corporación de Ferias de Loja",
@@ -301,6 +310,7 @@ export const Organizaciones = [
       "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/305327166_451307103703493_5552315801629658338_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=LeT-urCzfwUAX9T-O39&_nc_ht=scontent.fuio5-1.fna&oh=00_AT_r3zchE0k2_GkHdqFQqQco69Ted-MXvH2Kd1gfaJNgWA&oe=633599B3",
     countries: "Loja",
     years: "2017",
+    color: "#ec4899",
   },
   {
     name: "Grupo Funerario Jaramillo",
@@ -308,6 +318,7 @@ export const Organizaciones = [
       "https://www.funerariajaramillo.com.ec/wp-content/uploads/2019/06/logo-funeraria2.png",
     countries: "Loja",
     years: "2018 – 2020",
+    color: "#f43f5e",
   },
   {
     name: "Ecotel TV ",
@@ -315,6 +326,7 @@ export const Organizaciones = [
       "https://directostv.teleame.com/wp-content/uploads/2017/10/Ecotel-TV-en-vivo-Online.png",
     countries: "Loja",
     years: "2018",
+    color: "#fca5a5",
   },
   {
     name: "Lev – Leb Publicitaria ",
@@ -322,6 +334,7 @@ export const Organizaciones = [
       "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
     countries: "Santiago de Chile",
     years: "2018",
+    color: "#4ade80",
   },
   {
     name: "Colegio Eugenio Espejo",
@@ -329,6 +342,7 @@ export const Organizaciones = [
       "https://scontent.fuio13-1.fna.fbcdn.net/v/t1.6435-9/74332606_2399811686950355_724443957861285888_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pRxFXf8XDvoAX8qikTN&_nc_ht=scontent.fuio13-1.fna&oh=00_AT8REWLET6oD-Kbsi58V8yRxKampn5egIOifZCdlhC_DWw&oe=635F346C",
     countries: "Loja",
     years: "2021",
+    color: "#2dd4bf",
   },
   {
     name: "GO Motors",
@@ -336,6 +350,7 @@ export const Organizaciones = [
       "https://scontent.fuio5-1.fna.fbcdn.net/v/t1.18169-9/29425680_339310829922715_1054395758637658800_n.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=v4VbK5l5H34AX9v2Qfl&tn=NJoPJd9sev2iUMy6&_nc_ht=scontent.fuio5-1.fna&oh=00_AT_r6lfThMsvaVDj8dwuvb-2MzH9GK8ourHHW-PBA4DWLg&oe=63557E6E",
     countries: "",
     years: "2020",
+    color: "#22d3ee",
   },
   {
     name: "MEDI HOSPITAL",
@@ -343,11 +358,13 @@ export const Organizaciones = [
       "https://medihospital.com.ec/wp-content/uploads/2020/05/mdh-logo-rectangular.svg",
     countries: "Loja",
     years: "2021",
+    color: "#38bdf8",
   },
   {
     name: "Municipio de Loja",
     urlImage: "https://www.loja.gob.ec/files/image/imagenes/escudo-loja.jpg",
     countries: "Loja",
     years: "2019 – 2021",
+    color: "#60a5fa",
   },
 ];
