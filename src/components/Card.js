@@ -5,35 +5,26 @@ function Card() {
     return (
       <div
         key={video.id}
-        className="w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+        className="flex flex-col w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
       >
         <a href="/">
           <iframe
-            className="w-full sm:w-80 h-52 rounded-t-lg"
-            src={
-              "https://www.youtube.com/embed/" +
-              video.url.substring(32)
-            }
+            className="w-full sm:w-64 h-40 rounded-t-lg"
+            src={"https://www.youtube.com/embed/" + video.url.substring(32)}
             title="Carlos Granda l Resultados del Estudio sobre el primer año de gestión del gobierno"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
         </a>
-        <div className="p-5">
+        <div className="flex flex-col p-5 h-full justify-between items-center">
           <a href="/">
-            <h5 className="mb-2 text-left text-xl font-semibold font-sans tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-left text-base font-semibold font-sans tracking-tight text-gray-900 dark:text-white">
               {video.title}
             </h5>
           </a>
-          <p className="mb-3 text-left text-sm font-sans font-normal text-gray-700 dark:text-gray-400">
-            {video.description}
-          </p>
           <a
-            href={
-              "https://www.youtube.com/embed/" +
-              video.url.substring(32)
-            }
-            className="inline-flex items-center py-3 px-6 text-sm font-sans font-medium text-center text-white bg-ec-blue rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            href={"https://www.youtube.com/embed/" + video.url.substring(32)}
+            className="inline-flex justify-center w-[160px] items-center mt-6 py-3 px-6 text-xs font-sans font-medium text-center text-white bg-ec-blue rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Ver video
             <svg
