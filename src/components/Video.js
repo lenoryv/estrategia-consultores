@@ -6,7 +6,6 @@ function Video({Video}) {
           className="w-full sm:w-full h-[266px] rounded-lg"
           src={Video}
           title="Estrategia Consultores"
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
