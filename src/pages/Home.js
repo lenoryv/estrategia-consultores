@@ -29,14 +29,14 @@ const Home = () => {
           <a
             href="/encuesta"
             type="button"
-            className="hover:drop-shadow-[0_4px_80px_#5F6F94] flex w-80 justify-center items-center font-sans tracking-wide bg-white z-20 px-8 py-4 rounded-md"
+            className="hover:drop-shadow-[0_4px_80px_#5F6F94] flex w-80 justify-center items-center font-sans tracking-wide bg-gray-300 z-20 px-8 py-4 rounded-md sm:rounded-xl border border-gray-900"
           >
             <img
               className="w-6 h-6 sm:h-auto sm:w-10"
               src="./assets/icons/question-answer-v2.svg"
               alt="icon button"
             />
-            <span className="text-ec-blue text-xs sm:text-base font-montserrat font-bold uppercase">
+            <span className="text-ec-blue text-xs sm:text-base font-montserrat font-bold">
               Responde nuestra encuesta de hoy
             </span>
           </a>
