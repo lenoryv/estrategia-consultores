@@ -29,7 +29,7 @@ const Home = () => {
           <a
             href="/encuesta"
             type="button"
-            className="hover:drop-shadow-[0_4px_80px_#5F6F94] flex w-80 justify-center items-center font-sans tracking-wide bg-gray-300 z-20 px-8 py-4 rounded-md sm:rounded-xl border border-gray-900"
+            className="hover:drop-shadow-[0_4px_80px_#5F6F94] flex w-80 justify-center items-center font-sans tracking-wide bg-gray-100 z-20 px-8 py-4 rounded-md sm:rounded-xl border border-gray-900"
           >
             <img
               className="w-6 h-6 sm:h-auto sm:w-10"
