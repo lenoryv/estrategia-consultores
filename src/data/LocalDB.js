@@ -219,7 +219,7 @@ export const Organizaciones = [
   {
     name: "FAPECAFES",
     urlImage:
-      "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/231238508_110748587922766_2645707627544111303_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=A0lCKEGu3ecAX9nZJ-z&_nc_oc=AQn6tb80Q8aJ2JjnTIfpGOwbh7owogIjzwkdsKxRuNkMNZtems7OiYk03daU8aCp6Wo&tn=NJoPJd9sev2iUMy6&_nc_ht=scontent.fuio5-1.fna&oh=00_AT_hLRYHphY-_PXF0K9DOWRE14rPW977k-6PjynkNFU9Xw&oe=63353F14",
+      "https://cecjecuador.org.ec/wp-content/uploads/2021/06/fapecafes.jpg",
     countries: "Loja, Zamora",
     years: "2008",
     color: "#84cc16",
@@ -283,7 +283,7 @@ export const Organizaciones = [
   {
     name: "Consultor Apoyo",
     urlImage:
-      "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/305930746_446313747526795_2973143434750599683_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2ImCgx6jOzwAX_behv6&_nc_ht=scontent.fuio5-1.fna&oh=00_AT-F7SSVgBc4sxnvl0JDJVdE8Z0LaSOnW6fxW0JPjm8S3Q&oe=63364B3A",
+      "https://media-exp1.licdn.com/dms/image/C4D0BAQEb2cDLt2xxCg/company-logo_200_200/0/1625146780995?e=2147483647&v=beta&t=5eGmkHPYlfw1GghY2VhVKrm7HQzrE-lH5yhROJFqY9M",
     countries: "Quito",
     years: "2014",
     color: "#8b5cf6",
@@ -306,8 +306,7 @@ export const Organizaciones = [
   },
   {
     name: "Corporación de Ferias de Loja",
-    urlImage:
-      "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/305327166_451307103703493_5552315801629658338_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=LeT-urCzfwUAX9T-O39&_nc_ht=scontent.fuio5-1.fna&oh=00_AT_r3zchE0k2_GkHdqFQqQco69Ted-MXvH2Kd1gfaJNgWA&oe=633599B3",
+    urlImage: "https://cfloja.org/wp-content/uploads/2022/03/LOGO-CFL-09.png",
     countries: "Loja",
     years: "2017",
     color: "#ec4899",
