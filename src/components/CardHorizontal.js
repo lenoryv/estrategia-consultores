@@ -2,7 +2,7 @@ function CardHorizontal({ Services }) {
   return Services.map((service) => {
     return (
       <div
-      key={service.name}
+        key={service.name}
         className="flex flex-col text-left items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
         style={{ boxShadow: `0 10px 15px -3px ${service.color}` }}
       >
