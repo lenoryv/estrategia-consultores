@@ -48,7 +48,7 @@ const Home = () => {
             <span className="uppercase font-montserrat text-base font-medium text-ec-blue dark:text-white">
               Quiénes Somos
             </span>
-            <span className="flex font-sans font-normal text-left text-sm text-gray-700 dark:text-white sm:mr-6">
+            <span className="flex font-sans font-normal text-left text-sm text-gray-700 dark:text-white sm:mr-6 leading-relaxed">
               Constituimos un grupo consultor multidisciplinario integrado por
               profesionales con más de 22 años de experiencia en las áreas de
               Opinión Pública, Investigación de Mercados, Economía, Marketing,
