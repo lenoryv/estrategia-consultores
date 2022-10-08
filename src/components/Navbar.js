@@ -6,7 +6,7 @@ function Navbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
 
   function scrollBottom() {
-    setOpenNavbar(!openNavbar);
+    setOpenNavbar(false);
     let element = document.querySelector("footer");
     element.scrollIntoView({
       behavior: "smooth",
@@ -81,9 +81,9 @@ function Navbar() {
             <NavItem content="Nuestros Servicios" href="/servicios" />
             <NavItem content="Experiencia/Clientes" href="/clientes" />
             <NavItem content="Consulta del Día" href="/encuesta" />
-            <li className="md:hidden">
+            <li className="md:hidden flex justify-center">
               <button
-                className="text-gray-400 py-2 pr-4 pl-3 md:hidden"
+                className="text-gray-400 text-center py-2 pr-4 pl-3 md:hidden"
                 onClick={() => scrollBottom()}
               >
                 Contactos
