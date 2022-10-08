@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
@@ -13,8 +14,7 @@ import Survey from './pages/Survey';
 
 function App() {
   return (
-    <div className="App">
-      <section className="App-content">
+    <React.Fragment>
         <Navbar />
         <BrowserRouter>
           <Routes>
@@ -26,8 +26,7 @@ function App() {
           </Routes>
         </BrowserRouter>
         <Footer />
-      </section>
-    </div>
+    </React.Fragment>
   );
 }
 
