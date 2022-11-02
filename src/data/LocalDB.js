@@ -3,15 +3,16 @@ export const Videos = [
   {
     id: "0",
     url: "https://www.youtube.com/watch?v=P-ltn1kC9EY?start=445&end=620",
-    title: "Vera... ¡A Su Manera! - FRAUDE EN MANABI con Carlos Vera",
+    title:
+      "Carlos Vera: Encuestas presidenciales de Estrategia Consultores 2021",
     description:
-      "El periodista Carlos Vera presentó los datos de nuestro estudio nacional en TC",
+      "Carlos Vera: Encuestas presidenciales de Estrategia Consultores 2021",
   },
   {
     id: "1",
     url: "https://www.youtube.com/watch?v=mL0sswYOW8M",
     title:
-      "Encuesta de Estratégica ubica a Arauz con el 22 % de la intención del voto, cortesía de Maxtvonline",
+      "Entrevista Carlos Vera a director de Estrategia Consultores",
     description:
       "Carlos Granda, director de Estrategia Consultores, en reciente encuesta le da el primer lugar en la intención del voto a Andrés Arauz, de la Listas 1-5, seguido de Guillermo Lasso, de la alianza CREO - PSC, y un tercer lugar a Yaku Pérez, del movimiento indígena. La novedad es que hubo dos papeletas, una con Alvaro Noboa y otra sin él, en ambas Arauz lidera el primer pelotón.",
   },
@@ -25,7 +26,12 @@ export const MyServices = [
     color: "#ef4444",
     img: "https://images.pexels.com/photos/4570693/pexels-photo-4570693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "Los estudios de opinión pública recogen el pensamiento y sentimientos de una muestra representativa de ciudadanos, para medir esa opinión  en un determinado momento, con relación a temas como la situación política y económica del país.\n" +
+      "\n" +
+      "Estos estudios se hacen a través de encuestas personales, telefónicas y/o digitales, preparadas y controladas por el equipo de ESTRATEGIA, a nivel nacional.  \n" +
+      "\n" +
+      "Estrategia Consultores es desde hace 22 años, la empresa de estudios de opinión pública , de mayor credibilidad en el austro ecuatoriano.\n" +
+      "",
   },
   {
     id: "1",
@@ -34,7 +40,10 @@ export const MyServices = [
     color: "#f97316",
     img: "https://images.pexels.com/photos/8837507/pexels-photo-8837507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "Son procesos realizados para indagar en las preferencias de potenciales o actuales, compradores o interesados en un producto o servicio, para tener un panorama claro que garantice la toma de decisiones acertadas.\n" +
+      "\n" +
+      "Este tipo de estudio es especialmente útil para poner en marcha un emprendimiento o una empresa y,  para analizar aspectos como hábitos de compra, región de operación, requerimientos de productos o análisis de la competencia, cuando se quiere asegurar el buen desempeño de una empresa.\n" +
+      "",
   },
   {
     id: "2",
@@ -43,7 +52,13 @@ export const MyServices = [
     color: "#eab308",
     img: "https://images.pexels.com/photos/5439152/pexels-photo-5439152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "La investigación de mercado cualitativa es una técnica científica de investigación social y comercial, que utiliza preguntas de diferente tipo, para conocer pensamientos y sentimientos sobre un producto, servicio o marca. Se hacen básicamente a través de grupos de enfoque y entrevistas.\n" +
+      "\n" +
+      "Los grupos focales o “focus group” son una técnica de investigación utilizada para recopilar datos a través de la interacción grupal controlada. \n" +
+      "\n" +
+      "El grupo está compuesto por un pequeño número de personas (8 a 10) cuidadosamente seleccionadas en función de un conjunto de criterios predeterminados, como ubicación, edad, nivel socioeconómico, raza, etc, para discutir un tema determinado. \n" +
+      "\n" +
+      "En la investigación de mercados se utilizan los grupos focales para identificar y explorar cómo piensan y se comporta el público objetivo, y obtener más información del por qué, qué y cómo.",
   },
   {
     id: "3",
@@ -52,7 +67,9 @@ export const MyServices = [
     color: "#84cc16",
     img: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "Es una de las fases iniciales de un proceso donde se planifican ideas, recursos y estrategias. Esta fase suele crearse antes que el plan del proyecto, ya que brinda una descripción general para llevar adelante una idea exitosa, en cualquier ámbito. \n" +
+      "\n" +
+      "Estrategia cuenta con un equipo multidisciplinario de expertos asociados, que permite una visión técnica e integral para desarrollar cualquier proyecto empresarial o social. ",
   },
   {
     id: "4",
@@ -61,7 +78,9 @@ export const MyServices = [
     color: "#22c55e",
     img: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "El Design Thinking es una metodología centrada en el usuario y orientada a la acción. Su objetivo es generar soluciones viables de acuerdo a problemas detectados en un determinado ámbito de trabajo. \n" +
+      "\n" +
+      "Es una metodología de innovación con alta capacidad para generar en muy poco tiempo, soluciones a problemas y desafíos de empresas y organizaciones de todo tipo. A menudo se usa para desarrollo de nuevos productos, mejoramiento de servicios, generar ideas de emprendimiento, identificar soluciones a problemas sociales, etc.",
   },
   {
     id: "5",
@@ -70,7 +89,9 @@ export const MyServices = [
     color: "#10b981",
     img: "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "El levantamiento y descripción de los procesos es una forma de representar la realidad de la manera más exacta posible, a partir de la identificación de las diferentes actividades y tareas que se realizan en un proceso para lograr un determinado resultado o producto.\n" +
+      "\n" +
+      "La correcta definición de procesos optimiza resultados en las operaciones y genera mayor eficiencia en la empresa. En Estrategia contamos con un equipo de formación diversa, que tiene amplia experiencia para apoyar a su empresa en potenciar sus capacidades.",
   },
   {
     id: "6",
@@ -79,7 +100,11 @@ export const MyServices = [
     color: "#14b8a6",
     img: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "Modelo de negocio se puede resumir en que es “la forma que tiene una empresa de ganar dinero”; también es eso, pero es mucho más.\n" +
+      "\n" +
+      "Un modelo de negocio es una herramienta que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender," +
+      "cómo se lo vas a vender y de qué forma vas a generar ingresos. Es una herramienta de análisis que te permitirá saber quién eres, cómo lo haces, a qué coste, " +
+      "con qué medios y qué fuentes de ingresos vas a tener. Definir tu modelo de negocio es saber cuál es tu ADN, cómo está hecho, cómo se puede modificar, cómo pulir, cómo cambiar, cómo moldear…",
   },
   {
     id: "7",
@@ -88,7 +113,11 @@ export const MyServices = [
     color: "#06b6d4",
     img: "https://images.pexels.com/photos/12942548/pexels-photo-12942548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
+      "Te ayudamos a identificar oportunidades y a desarrollar ideas para que puedas iniciar tu emprendimiento de manera adecuada, disminuyendo los riesgos y enfocándote en tus potencialidades. \n" +
+      "\n" +
+      "En Estrategia encontrarás un grupo de emprendedores como tu, con ideas innovadoras que estamos dispuestos a escucharte y guiarte con herramientas técnicas en el desafío de emprender.\n" +
+      "\n" +
+      "Identificación de mercados, generación de ideas, modelos de negocios, procesos productivos y de servicio, finanzas, comunicación web, pruebas de mercado, presentaciones exitosas, y todo lo que requieres para arrancar tu emprendimiento.",
   },
   {
     id: "8",
@@ -125,13 +154,15 @@ export const Directivos = [
     position: "Director General",
     description:
       "Doctor (Ph.D.) en Comunicación Contemporánea por la Universidad Santiago de Compostela. Master en" +
-      "Marketing Estratégico por EOI Escuela de Negocios de Madrid. Diplomado en Entrepreneurship por el Babson College de EE.UU." +
+      " Marketing Estratégico por EOI Escuela de Negocios de Madrid. Diplomado en Entrepreneurship por el Babson College de EE.UU." +
       " Especialista en Investigación de mercados y opinión pública.\n\nTrabajó como coordinador de proyectos en CEDATOS- Quito, a " +
       "cargo de investigaciones  para cuentas como: Ecuador Boutling Company (Cola Cola), Bell South, Ecuasanitas, Dun & Bradstreet, " +
-      "etc.  Ex Director del departamento de Marketing de COOP MEGO en Loja.\n\nFundador y  director por ocho años del Departamento de " +
-      "Marketing y Publicidad Institucional de la UTPL. Docente-investigador de la misma Universidad por 23 años. Director de Educación" +
+      "etc.  Ex Director del departamento de Marketing de COOP MEGO en Loja.\n\nFundador y  director por 8 años del Departamento de " + 
+      "Marketing y Publicidad Institucional de la UTPL, donde creó y posicionó el eslogan "+
+      '"Decide ser más"' +
+      ". Docente-investigador de la misma Universidad por 23 años. Director de Educación" +
       " Continua de la UTPL de 2007 a 2014 y de 2016 a 2018. Actualmente es coordinador de Grupo de Investigación en Innovación y " +
-      "Emprendimiento de UTPL. \nPresidente de la fundación CISOL, para educación a niños de sectores vulnerables.",
+      "Emprendimiento de UTPL. Presidente de la fundación CISOL, para educación a niños de sectores vulnerables.",
     img: "/assets/img/carlos-granda.jpeg",
   },
   {
@@ -202,7 +233,7 @@ export const Organizaciones = [
     color: "#f97316",
   },
   {
-    name: "Delta Publicidad",
+    name: "Mullenlowe - Delta Publicidad",
     urlImage:
       "https://s3-eu-west-1.amazonaws.com/cdn1.mullenlowegroup.com/uploads/2014/10/mullenlowe1.png",
     countries: "Quito",
