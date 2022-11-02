@@ -36,7 +36,7 @@ function Footer () {
                     href="https://www.facebook.com/consultoresestrategia"
                     className="hover:underline"
                   >
-                    Facebook: Estrategia Consultores
+                    @Consultoresest
                   </a>
                 </li>
               </ul>
