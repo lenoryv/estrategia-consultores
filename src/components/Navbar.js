@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavItem } from "./NavItem";
+import { NavItem } from "./NavItem/NavItem";
 
 function Navbar() {
 
@@ -14,7 +14,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-ec-blue px-6 sm:px-8 py-2.5 sm:py-3 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 dark:border-gray-600">
+    <nav className="bg-sky-600 px-6 sm:px-8 py-2.5 sm:py-3 dark:bg-gray-900 fixed w-full z-30 top-0 left-0 dark:border-gray-600">
       <div className="flex flex-wrap justify-between items-center m-auto">
         <a href="/" className="flex items-center">
           <img
@@ -28,7 +28,7 @@ function Navbar() {
           {openNavbar ? (
             <button
               onClick={() => setOpenNavbar(!openNavbar)}
-              className="inline-flex items-center p-2 text-sm bg-ec-blue dark:bg-gray-900 text-white rounded-lg md:hidden hover:bg-ec-blue focus:outline-none focus:ring-2 focus:ring-ec-blue dark:text-gray-300 dark:hover:bg-gray-900 dark:focus:ring-gray-300"
+              className="inline-flex items-center p-2 text-sm bg-sky-600 dark:bg-gray-900 text-white rounded-lg md:hidden hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-ec-blue dark:text-gray-300 dark:hover:bg-gray-900 dark:focus:ring-gray-300"
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -75,15 +75,15 @@ function Navbar() {
           }
           id="navbar-sticky"
         >
-          <ul className="flex flex-col gap-2 rounded-lg p-4 mt-4 bg-ec-blue md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
+          <ul className="text-gray-700 flex flex-col gap-2 rounded-lg p-4 mt-4 bg-sky-600 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
             <NavItem content="Quienes Somos" href="/" />
-            <NavItem content="Equipo" href="/equipo" />
             <NavItem content="Nuestros Servicios" href="/servicios" />
+            <NavItem content="Equipo" href="/equipo" />
             <NavItem content="Experiencia/Clientes" href="/clientes" />
             <NavItem content="Consulta del Día" href="/encuesta" />
             <li className="md:hidden flex justify-center">
               <button
-                className="text-gray-400 text-center py-2 pr-4 pl-3 md:hidden"
+                className="text-gray-700 text-center py-2 pr-4 pl-3 md:hidden"
                 onClick={() => scrollBottom()}
               >
                 Contactos
@@ -93,7 +93,7 @@ function Navbar() {
         </div>
         <div className="order-first md:order-last hidden md:block">
           <button
-            className="bg-ec-blue text-white py-2 px-4 rounded font-poppins text-base"
+            className="bg-sky-600 text-white py-2 px-4 rounded font-poppins text-base"
             onClick={() => scrollBottom()}
           >
             Contactos

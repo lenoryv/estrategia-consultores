@@ -15,17 +15,17 @@ import Survey from './pages/Survey';
 function App() {
   return (
     <React.Fragment>
+      <BrowserRouter>
         <Navbar />
-        <BrowserRouter>
-          <Routes>
-            <Route index pathname="/" element={<Home />} />
-            <Route path="/equipo" element={<Team />} />
-            <Route path="/servicios" element={<Services />} />
-            <Route path="/clientes" element={<Customers />} />
-            <Route path="/encuesta" element={<Survey />} />
-          </Routes>
-        </BrowserRouter>
-        <Footer />
+        <Routes>
+          <Route index pathname="/" element={<Home />} />
+          <Route path="/equipo" element={<Team />} />
+          <Route path="/servicios" element={<Services />} />
+          <Route path="/clientes" element={<Customers />} />
+          <Route path="/encuesta" element={<Survey />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </React.Fragment>
   );
 }
