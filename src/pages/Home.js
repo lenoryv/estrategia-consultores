@@ -1,6 +1,7 @@
 import { Card } from '../components/Card'
 import { Video } from '../components/Video';
 import { CardImage } from '../components/CardImage';
+import { Audio } from '../components/Audio';
 import { MyServices } from '../data/LocalDB';
 import { BtnService} from '../components/BtnService';
 
@@ -16,8 +17,8 @@ const Home = () => {
             Es una empresa dedicada al análisis de mercados y estudios de
             opinión pública.
             <br />
-            Realizamos además asesoría empresarial en innovación, emprendimiento, planeación,
-            marketing y comunicación integral.
+            Realizamos además asesoría empresarial en innovación,
+            emprendimiento, planeación, marketing y comunicación integral.
           </span>
         </div>
         <div className="flex flex-col items-center gap-10 pt-8 sm:mt-0">
@@ -51,12 +52,12 @@ const Home = () => {
             <p className="flex font-sans font-normal text-justify text-sm text-gray-700 dark:text-white sm:mr-6 leading-relaxed">
               Constituimos un grupo consultor multidisciplinario integrado por
               profesionales con más de 22 años de experiencia en las áreas de
-              Opinión Pública, Investigación de Mercados, Economía, Emprendimiento, Marketing,
-              Comunicación, Proyectos y Estadística, trabajando para empresas
-              nacionales e internacionales de reconocida trayectoria. Contamos
-              con oficinas en Loja y Quito, además de representantes en
-              Guayaquil y Cuenca, con lo cual se garantiza una capacidad
-              nacional de operación.
+              Opinión Pública, Investigación de Mercados, Economía,
+              Emprendimiento, Marketing, Comunicación, Proyectos y Estadística,
+              trabajando para empresas nacionales e internacionales de
+              reconocida trayectoria. Contamos con oficinas en Loja y Quito,
+              además de representantes en Guayaquil y Cuenca, con lo cual se
+              garantiza una capacidad nacional de operación.
             </p>
           </div>
           <div className="w-full">
@@ -67,7 +68,11 @@ const Home = () => {
             />
           </div>
           <div className="w-full">
-            <CardImage />
+            <CardImage
+              date="05 de octubre de 2022"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80"
+            />
           </div>
         </div>
       </section>
@@ -100,6 +105,11 @@ const Home = () => {
         <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4sm:pb-8">
           {/* overflow-x-auto  */}
           <Card />
+          <Audio
+            date="01 de abril de 2021"
+            description='Elecciones en Ecuador: "Cualquier cosa puede pasar, serán días intensos"'
+            image="https://cdnnmundo1.img.sputniknews.com/img/07e5/04/01/1110726748_14:0:626:344_600x0_80_0_0_146942e0f76f0d4b5b093b8878838b7d.jpg.webp"
+          />
         </div>
       </section>
     </div>

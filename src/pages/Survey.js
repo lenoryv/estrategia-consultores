@@ -5,7 +5,7 @@ const Survey = () => {
         <iframe
           className="md:w-11/12 w-full h-full"
           title="Consulta del Dia"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeUXjWWTloAm9phaqR4CNJCLnqonB9bv_D3wIHlH1xCt6fZZA/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSddI9JOFCEKh67Z3gdCb6g3cIbeHhXnFDzae0OwRGAFQXd98Q/viewform?embedded=true"
         >
           Cargando…
         </iframe>
@@ -13,5 +13,4 @@ const Survey = () => {
     </div>
   );
 };
-
 export default Survey;
