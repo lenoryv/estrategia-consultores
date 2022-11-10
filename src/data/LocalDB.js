@@ -306,7 +306,7 @@ export const Organizaciones = [
   {
     name: "Clínica San Agustín",
     urlImage:
-      "https://scontent.fuio5-1.fna.fbcdn.net/v/t1.6435-9/124636037_1653959318098191_2267847704066027921_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Jx57ij3dBpQAX_WZyJL&_nc_ht=scontent.fuio5-1.fna&oh=00_AT9hbUS3f67m18skZerla8zkgR27OzrpmDKxwzaIHkFZvA&oe=635622DF",
+      "https://media-exp1.licdn.com/dms/image/D4E0BAQF2Jja9yAuhPg/company-logo_200_200/0/1664903444018?e=2147483647&v=beta&t=VYjibCGS_st3mOJo1hlq27yTpa5jaiaFDFchNzDV_jM",
     countries: "Loja",
     years: "2015 – 2019",
     color: "#6366f1",
@@ -330,7 +330,7 @@ export const Organizaciones = [
   {
     name: "Instituto Tecnológico Daniel Álvarez B.",
     urlImage:
-      "https://scontent.fuio5-1.fna.fbcdn.net/v/t1.6435-9/54428310_1191577861003929_5068427946084007936_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_ohc=tS7dRwWfbggAX8BxMQV&_nc_ht=scontent.fuio5-1.fna&oh=00_AT-t2UJAU2euGq1cWp3YCWpg766cV67DBqVRjohz2HnnOw&oe=635518B2",
+      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
     countries: "Loja",
     years: "2016",
     color: "#d946ef",
@@ -369,7 +369,7 @@ export const Organizaciones = [
   {
     name: "Colegio Eugenio Espejo",
     urlImage:
-      "https://scontent.fuio13-1.fna.fbcdn.net/v/t1.6435-9/74332606_2399811686950355_724443957861285888_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pRxFXf8XDvoAX8qikTN&_nc_ht=scontent.fuio13-1.fna&oh=00_AT8REWLET6oD-Kbsi58V8yRxKampn5egIOifZCdlhC_DWw&oe=635F346C",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqdiCa00o1VAi2g1GntlX2JIuspTn_pqnWg&usqp=CAU",
     countries: "Loja",
     years: "2021",
     color: "#2dd4bf",
@@ -377,7 +377,7 @@ export const Organizaciones = [
   {
     name: "GO Motors",
     urlImage:
-      "https://scontent.fuio5-1.fna.fbcdn.net/v/t1.18169-9/29425680_339310829922715_1054395758637658800_n.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=v4VbK5l5H34AX9v2Qfl&tn=NJoPJd9sev2iUMy6&_nc_ht=scontent.fuio5-1.fna&oh=00_AT_r6lfThMsvaVDj8dwuvb-2MzH9GK8ourHHW-PBA4DWLg&oe=63557E6E",
+      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
     countries: "",
     years: "2020",
     color: "#22d3ee",

@@ -8,7 +8,7 @@ function Video({Video}) {
       </div>
       <a href="/">
         <iframe
-          className="w-full sm:w-full h-[186px] rounded-lg"
+          className="w-full sm:w-full h-[200px] rounded-lg"
           src={Video}
           title="Estrategia Consultores"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

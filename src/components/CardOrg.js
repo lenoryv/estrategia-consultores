@@ -7,7 +7,14 @@ function CardOrg({orgs}) {
           style={{ boxShadow: `0 10px 15px -3px ${org.color}` }}
         >
           <div className="flex items-center min-w-max h-full mr-4">
-            <img src={org.urlImage} className="w-16 h-16" alt="Logo" />
+            <img
+              src={
+                org.urlImage ??
+                "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png"
+              }
+              className="w-16 h-16"
+              alt="Logo"
+            />
           </div>
           <div className="flex flex-col">
             <h5 className="flex text-left text-sm font-semibold font-poppins tracking-tight text-gray-900 dark:text-white">
