@@ -6,7 +6,7 @@ const Customers = () => {
   return (
     <div className="h-full w-full px-6 sm:px-24 dark:bg-gray-900">
       {" "}
-      <h1 className="text-2xl sm:text-2xl font-medium text-ec-blue font-montserrat dark:text-white mt-20 sm:mt-32">
+      <h1 className="text-xl sm:text-2xl font-medium text-ec-blue font-montserrat dark:text-white mt-20 sm:mt-32">
         <span className="mr-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
           Entre las
         </span>

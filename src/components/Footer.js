@@ -10,7 +10,7 @@ function Footer () {
               <img src="./assets/logos/isotipo.svg" alt="EC Isotipo" />
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-3">
             <div className="flex flex-col items-start">
               <h2 className="font-poppins mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Dirección

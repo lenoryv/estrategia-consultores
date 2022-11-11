@@ -10,13 +10,13 @@ const Home = () => {
     <div className="sm:mt-18 mt-14 pt-6 bg-ec-blue dark:bg-gray-900">
       <section className="flex flex-col sm:flex-row sm:px-24 h-full px-6 sm:my-0 my-6">
         <div className="flex flex-col sm:w-3/4 gap-4 justify-end sm:pb-6">
-          <span className="font-extrabold font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
+          <span className="flex flex-col sm:flex-row font-extrabold font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
             Estrategia
-            <small className="ml-4 font-light font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
+            <small className="flex sm:ml-4 font-light font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
               Consultores
             </small>
           </span>
-          <span className="font-light text-base sm:text-base sm:w-3/4 text-left text-white">
+          <span className="flex font-light text-base sm:text-base sm:w-3/4 text-left text-white">
             Es una empresa dedicada al análisis de mercados y estudios de
             opinión pública.
             <br />
@@ -105,7 +105,7 @@ const Home = () => {
         <span className="w-full text-left uppercase font-poppins font-medium text-base text-ec-blue dark:text-white">
           Estrategia en los medios
         </span>
-        <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4sm:pb-8">
+        <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4 sm:pb-8">
           {/* overflow-x-auto  */}
           <Card />
           <Audio

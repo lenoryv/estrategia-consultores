@@ -24,7 +24,7 @@ export const MyServices = [
     name: "Estudios de Opinión Pública (Política)",
     href: "/",
     color: "#ef4444",
-    img: "https://images.pexels.com/photos/4570693/pexels-photo-4570693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/4570693/pexels-photo-4570693.jpeg",
     description:
       "Los estudios de opinión pública recogen el pensamiento y sentimientos de una muestra representativa de ciudadanos, para medir esa opinión  en un determinado momento, con relación a temas como la situación política y económica del país.\n" +
       "\n" +
@@ -38,7 +38,7 @@ export const MyServices = [
     name: "Estudios cuantitativos de mercado",
     href: "/",
     color: "#f97316",
-    img: "https://images.pexels.com/photos/8837507/pexels-photo-8837507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/8837507/pexels-photo-8837507.jpeg",
     description:
       "Son procesos realizados para indagar en las preferencias de potenciales o actuales, compradores o interesados en un producto o servicio, para tener un panorama claro que garantice la toma de decisiones acertadas.\n" +
       "\n" +
@@ -50,7 +50,7 @@ export const MyServices = [
     name: "Análisis cualitativos",
     href: "/",
     color: "#eab308",
-    img: "https://images.pexels.com/photos/5439152/pexels-photo-5439152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/5439152/pexels-photo-5439152.jpeg",
     description:
       "La investigación de mercado cualitativa es una técnica científica de investigación social y comercial, que utiliza preguntas de diferente tipo, para conocer pensamientos y sentimientos sobre un producto, servicio o marca. Se hacen básicamente a través de grupos de enfoque y entrevistas.\n" +
       "\n" +
@@ -65,7 +65,7 @@ export const MyServices = [
     name: "Diseño y evaluación de proyectos",
     href: "/",
     color: "#84cc16",
-    img: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
     description:
       "Es una de las fases iniciales de un proceso donde se planifican ideas, recursos y estrategias. Esta fase suele crearse antes que el plan del proyecto, ya que brinda una descripción general para llevar adelante una idea exitosa, en cualquier ámbito. \n" +
       "\n" +
@@ -76,7 +76,7 @@ export const MyServices = [
     name: "Design Thinking para innovación de productos y servicios",
     href: "/",
     color: "#22c55e",
-    img: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg",
     description:
       "El Design Thinking es una metodología centrada en el usuario y orientada a la acción. Su objetivo es generar soluciones viables de acuerdo a problemas detectados en un determinado ámbito de trabajo. \n" +
       "\n" +
@@ -87,7 +87,7 @@ export const MyServices = [
     name: "Levantamiento y diseño de Procesos",
     href: "/",
     color: "#10b981",
-    img: "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg",
     description:
       "El levantamiento y descripción de los procesos es una forma de representar la realidad de la manera más exacta posible, a partir de la identificación de las diferentes actividades y tareas que se realizan en un proceso para lograr un determinado resultado o producto.\n" +
       "\n" +
@@ -98,7 +98,7 @@ export const MyServices = [
     name: "Modelos de negocios",
     href: "/",
     color: "#14b8a6",
-    img: "https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg",
     description:
       "Modelo de negocio se puede resumir en que es “la forma que tiene una empresa de ganar dinero”; también es eso, pero es mucho más.\n" +
       "\n" +
@@ -111,7 +111,7 @@ export const MyServices = [
     name: "Asesoría para emprendimiento",
     href: "/",
     color: "#06b6d4",
-    img: "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg",
     description:
       "Te ayudamos a identificar oportunidades y a desarrollar ideas para que puedas iniciar tu emprendimiento de manera adecuada, disminuyendo los riesgos y enfocándote en tus potencialidades. \n" +
       "\n" +
@@ -124,7 +124,7 @@ export const MyServices = [
     name: "Análisis estadístico y financiero",
     href: "/",
     color: "#0ea5e9",
-    img: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
@@ -133,7 +133,7 @@ export const MyServices = [
     name: "Planes de marketing y publicidad",
     href: "/",
     color: "#3b82f6",
-    img: "https://images.pexels.com/photos/6483583/pexels-photo-6483583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/6483583/pexels-photo-6483583.jpeg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
@@ -142,7 +142,7 @@ export const MyServices = [
     name: "Asesoría en comunicación institucional",
     href: "/",
     color: "#6366f1",
-    img: "https://images.pexels.com/photos/3727511/pexels-photo-3727511.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "https://images.pexels.com/photos/3727511/pexels-photo-3727511.jpeg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },

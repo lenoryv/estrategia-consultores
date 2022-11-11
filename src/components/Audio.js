@@ -1,12 +1,12 @@
 function Audio ({date, description, image}) {
     return (
-      <div className="flex flex-col items-center justify-center pb-5 w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="flex flex-col items-center justify-center pb-5 w-full sm:w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img className="rounded-t-lg h-full w-full" src={image} alt="Card" />
         <div className="p-5">
           <span className="flex mb-2 text-xs text-left font-poppins font-bold tracking-tight text-gray-900 dark:text-white uppercase">
             {date}
           </span>
-          <p className="flex text-left mb-2 font-sans font-medium text-base text-gray-700 dark:text-gray-400">
+          <p className="flex text-left mb-2 font-sans font-medium text-sm text-gray-700 dark:text-gray-400">
             {description}
           </p>
         </div>

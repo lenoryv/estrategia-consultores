@@ -5,7 +5,7 @@ function Card() {
     return (
       <div
         key={video.id}
-        className="flex flex-col w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+        className="flex flex-col w-full sm:w-64 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
       >
         <div>
           <iframe
