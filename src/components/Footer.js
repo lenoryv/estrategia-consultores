@@ -1,8 +1,9 @@
 function Footer () {
     return (
-      <footer 
-      id="footer"
-      className="p-4 bg-white sm:px-8 sm:py-8 dark:bg-gray-900 w-full pt-6 sm:pt-16">
+      <footer
+        id="footer"
+        className="p-4 bg-white sm:px-8 sm:py-8 dark:bg-gray-900 w-full pt-6 sm:pt-16"
+      >
         <div className="md:flex md:justify-between sm:gap-8">
           <div className="mb-4 md:mb-0">
             <a href="/" className="flex items-center">
@@ -20,9 +21,23 @@ function Footer () {
                     href="https://www.google.com/maps/dir/?api=1&destination=-3.9968579812559%2C-79.198765313507&fbclid=IwAR3RinYqauTfjcjOlPUMrh4QwGjtPq4FMOACMPhKziW5rdVXLS96i0dhNTs"
                     className="hover:underline"
                   >
-                    Oficinas: Loja, calle Juan José Peña entre 10 de Agosto y
-                    Rocafuerte, Piso 2.
+                    Loja: Juan José Peña entre Rocafuerte y 10 de Agosto, planta
+                    alta
                   </a>
+                </li>
+                <li>
+                  <span>
+                    Cuenca: Ciudadela Uncovia Calle S/N, entre Huamboya y
+                    Cojimies
+                  </span>
+                  <div className="flex flex-row mt-4">
+                    <img
+                      className="mr-2 w-6 h-6"
+                      src="./assets/icons/Whatsapp.svg"
+                      alt="Whatsapp"
+                    />
+                    <span>098 488 1439</span>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -31,12 +46,22 @@ function Footer () {
                 Síguenos en
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 text-base text-left">
-                <li className="mb-4">
+                <li className="mb-4 flex flex-row">
+                  <img
+                    className="mr-2 w-6 h-6"
+                    src="./assets/icons/Facebook.svg"
+                    alt="Facebook"
+                  />
+                  <img
+                    className="mr-2 w-6 h-6"
+                    src="./assets/icons/Instagram.svg"
+                    alt="Instagram"
+                  />
                   <a
                     href="https://www.facebook.com/consultoresestrategia"
                     className="hover:underline"
                   >
-                    @Consultoresest
+                    @consultoresestrategia
                   </a>
                 </li>
               </ul>
@@ -46,23 +71,38 @@ function Footer () {
                 Contactos
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 text-base text-left">
-                <li className="mb-4">
+                <li className="mb-4 flex flex-row">
+                  <img
+                    className="mr-2 w-6 h-6"
+                    src="./assets/icons/Whatsapp.svg"
+                    alt="Whatsapp"
+                  />
                   <a
                     href="https://api.whatsapp.com/send/?phone=593998200312"
                     className="hover:underline"
                   >
-                    Telf: (+593) 99 820 0312
+                    099 820 0312
                   </a>
                 </li>
-                <li className="mb-4">
+                <li className="mb-4 flex flex-row">
+                  <img
+                    className="mr-2 w-6 h-6"
+                    src="./assets/icons/Whatsapp.svg"
+                    alt="Whatsapp"
+                  />
                   <a
                     href="https://api.whatsapp.com/send/?phone=593997909371"
                     className="hover:underline"
                   >
-                    Telf: (+593) 99 790 9371
+                    099 790 9371
                   </a>
                 </li>
-                <li className="mb-4">
+                <li className="mb-4 flex flex-row">
+                  <img
+                    className="mr-2 w-6 h-6"
+                    src="./assets/icons/Gmail.svg"
+                    alt="Gmail"
+                  />
                   <a
                     href="mailto:estrategialoja@gmail.com"
                     className="hover:underline"

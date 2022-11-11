@@ -2,7 +2,7 @@
 export const Videos = [
   {
     id: "0",
-    url: "https://www.youtube.com/watch?v=P-ltn1kC9EY?start=445&end=620",
+    url: "https://www.youtube.com/watch?v=P-ltn1kC9EY?start=435&end=620",
     title:
       "Carlos Vera: Encuestas presidenciales de Estrategia Consultores 2021",
     description:
@@ -98,7 +98,7 @@ export const MyServices = [
     name: "Modelos de negocios",
     href: "/",
     color: "#14b8a6",
-    img: "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
       "Modelo de negocio se puede resumir en que es “la forma que tiene una empresa de ganar dinero”; también es eso, pero es mucho más.\n" +
       "\n" +
@@ -111,7 +111,7 @@ export const MyServices = [
     name: "Asesoría para emprendimiento",
     href: "/",
     color: "#06b6d4",
-    img: "https://images.pexels.com/photos/12942548/pexels-photo-12942548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img: "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
       "Te ayudamos a identificar oportunidades y a desarrollar ideas para que puedas iniciar tu emprendimiento de manera adecuada, disminuyendo los riesgos y enfocándote en tus potencialidades. \n" +
       "\n" +
@@ -142,7 +142,7 @@ export const MyServices = [
     name: "Asesoría en comunicación institucional",
     href: "/",
     color: "#6366f1",
-    img: "https://images.pexels.com/photos/7156097/pexels-photo-7156097.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "https://images.pexels.com/photos/3727511/pexels-photo-3727511.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
@@ -183,7 +183,7 @@ export const Asociados = [
     description:
       "Ph. D. en Economía del Emprendimiento por la Universidad de Padua- Italia. " +
       "Master en Economía por la Universidad de La Plata, Argentina. Docente de Pre y Posgrado de la UESS-Ecuador. ",
-    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?ver=6",
   },
   {
     name: "Darío Vélez Jara  ",
@@ -198,14 +198,14 @@ export const Asociados = [
       "PhD en Políticas Públicas y Master en Administración Pública y Desarrollo Internacional" +
       " en la Universidad de Harvard, Master en Políticas Públicas en FLACSO-Ecuador, y títulos " +
       "de B.A. en Sociología y Economía en la Universidad San Francisco de Quito",
-    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?ver=6",
   },
   {
     name: "Armando Cabrera",
     description:
       "Master en Ciencias y Tecnología de la Información por la Universidad Politécnica de Madrid. " +
       " Ingeniero en Sistemas Informáticos por la UTPL. Director de la Escuela de Ingeniería en informática de la UTPL.",
-    img: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?ver=6",
   },
   {
     name: "Vismar G. Flores",
@@ -329,8 +329,7 @@ export const Organizaciones = [
   },
   {
     name: "Instituto Tecnológico Daniel Álvarez B.",
-    urlImage:
-      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
+    urlImage: "https://docplayer.es/docs-images/97/134521168/images/1-2.jpg",
     countries: "Loja",
     years: "2016",
     color: "#d946ef",
@@ -376,8 +375,7 @@ export const Organizaciones = [
   },
   {
     name: "GO Motors",
-    urlImage:
-      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
+    urlImage: "https://www.fcme.com.ec/wp-content/uploads/logo-gomotors.png",
     countries: "",
     years: "2020",
     color: "#22d3ee",

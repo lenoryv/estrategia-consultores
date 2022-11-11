@@ -6,14 +6,14 @@ const Customers = () => {
   return (
     <div className="h-full w-full px-6 sm:px-24 dark:bg-gray-900">
       {" "}
-      <h1 className="text-xl sm:text-4xl font-bold font-montserrat dark:text-white mt-20 sm:mt-32">
-        <small className="mr-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
+      <h1 className="text-2xl sm:text-2xl font-medium text-ec-blue font-montserrat dark:text-white mt-20 sm:mt-32">
+        <span className="mr-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
           Entre las
-        </small>
+        </span>
         Organizaciones
-        <small className="ml-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
+        <span className="ml-2 font-medium font-montserrat text-gray-500 dark:text-gray-400">
           con las que hemos colaborado en los últimos años están:
-        </small>
+        </span>
       </h1>{" "}
       <section className="relative flex overflow-hidden md:h-auto items-center bg-gray-100 h-auto mt-6 sm:mt-10 ">
         <div

@@ -11,7 +11,10 @@ const Home = () => {
       <section className="flex flex-col sm:flex-row sm:px-24 h-full px-6 sm:my-0 my-6">
         <div className="flex flex-col sm:w-3/4 gap-4 justify-end sm:pb-6">
           <span className="font-extrabold font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
-            Estrategia Consultores
+            Estrategia
+            <small className="ml-4 font-light font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
+              Consultores
+            </small>
           </span>
           <span className="font-light text-base sm:text-base sm:w-3/4 text-left text-white">
             Es una empresa dedicada al análisis de mercados y estudios de
@@ -69,8 +72,8 @@ const Home = () => {
           </div>
           <div className="w-full">
             <CardImage
-              date="05 de octubre de 2022"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              date="07 de noviembre de 2022"
+              description="Estudio de Opinión pública sobre candidatos a prefecto de Loja"
               image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80"
             />
           </div>
@@ -107,7 +110,7 @@ const Home = () => {
           <Card />
           <Audio
             date="01 de abril de 2021"
-            description='Elecciones en Ecuador: "Cualquier cosa puede pasar, serán días intensos"'
+            description="Elecciones en Ecuador: La agencia internacional Sputink comunica los resultados de Estrategia Consultores"
             image="https://cdnnmundo1.img.sputniknews.com/img/07e5/04/01/1110726748_14:0:626:344_600x0_80_0_0_146942e0f76f0d4b5b093b8878838b7d.jpg.webp"
           />
         </div>

@@ -4,7 +4,7 @@ function CardOrg({orgs}) {
         <div
           key={org.name}
           className="flex h-auto w-full sm:w-auto sm:max-w-[320px] sm:max-h-40 p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          style={{ boxShadow: `0 10px 15px -3px ${org.color}` }}
+          style={{ boxShadow: `0 4px 8px -3px ${org.color}` }}
         >
           <div className="flex items-center min-w-max h-full mr-4">
             <img
