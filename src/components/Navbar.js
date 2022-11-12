@@ -75,7 +75,7 @@ function Navbar() {
           }
           id="navbar-sticky"
         >
-          <ul className="text-sky-300 flex flex-col gap-2 rounded-lg p-4 mt-4 bg-sky-700 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
+          <ul className="text-white flex flex-col gap-2 rounded-lg p-4 mt-4 bg-sky-700 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-extralight md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
             <NavItem content="Quienes Somos" href="/" />
             <NavItem content="Nuestros Servicios" href="/servicios" />
             <NavItem content="Equipo" href="/equipo" />

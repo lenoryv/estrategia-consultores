@@ -58,8 +58,8 @@ const Home = () => {
               Opinión Pública, Investigación de Mercados, Economía,
               Emprendimiento, Marketing, Comunicación, Proyectos y Estadística,
               trabajando para empresas nacionales e internacionales de
-              reconocida trayectoria. Contamos con oficinas en Loja y Quito,
-              además de representantes en Guayaquil y Cuenca, con lo cual se
+              reconocida trayectoria. Contamos con oficinas en Loja y Cuenca,
+              además de representantes en Guayaquil y Quito, con lo cual se
               garantiza una capacidad nacional de operación.
             </p>
           </div>

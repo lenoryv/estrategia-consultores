@@ -61,7 +61,7 @@ function Footer () {
                     href="https://www.facebook.com/consultoresestrategia"
                     className="hover:underline"
                   >
-                    @consultoresestrategia
+                    @Consultoresest
                   </a>
                 </li>
               </ul>
@@ -107,7 +107,7 @@ function Footer () {
                     href="mailto:estrategialoja@gmail.com"
                     className="hover:underline"
                   >
-                    Correo: estrategialoja@gmail.com
+                    estrategialoja@gmail.com
                   </a>
                 </li>
               </ul>

@@ -13,7 +13,7 @@ function CardImage ({date, description, image}) {
           <p className="flex text-left mb-2 font-sans font-normal text-base text-gray-700 dark:text-gray-400">
             {description}
           </p>
-          <img className="rounded-b-lg h-36 w-full" src={image} alt="Card" />
+          <img className="rounded-b-lg h-36 w-96" src={image} alt="Card" />
         </a>
       </div>
     );

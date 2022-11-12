@@ -7,7 +7,7 @@ function CardHorizontal({ Services }) {
         style={{ boxShadow: `0 4px 8px -3px ${service.color}` }}
       >
         <img
-          className="object-cover rounded-t-lg md:h-full md:w-48 md:rounded-none md:rounded-l-lg"
+          className="object-cover rounded-t-lg h-full w-full md:w-1/4 md:rounded-none md:rounded-l-lg"
           src={service.img}
           alt="Service"
         />
