@@ -2,7 +2,7 @@ function CardImage ({date, description, image}) {
     return (
       <div className="p-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <a
-          href="https://drive.google.com/file/d/19-jpqOW5pntltGikuLgjEgkZQ9ayIeF_/view?usp=sharing"
+          href="/pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
