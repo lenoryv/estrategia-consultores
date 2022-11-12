@@ -11,6 +11,7 @@ import Team from './pages/Team';
 import Services from './pages/Services';
 import Customers from './pages/Customers';
 import Survey from './pages/Survey';
+import PdfView from './pages/PdfView';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/servicios" element={<Services />} />
           <Route path="/clientes" element={<Customers />} />
           <Route path="/encuesta" element={<Survey />} />
+          <Route path="/pdf" element={<PdfView />} />
         </Routes>
       </BrowserRouter>
       <Footer />
