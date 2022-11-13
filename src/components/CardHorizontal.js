@@ -14,9 +14,9 @@ function CardHorizontal({ Services }) {
           alt="Service"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="flex mb-2 text-base font-bold font-montserrat tracking-tight text-gray-900 dark:text-white">
+          <span className="flex mb-2 text-base font-bold font-montserrat tracking-tight text-gray-900 dark:text-white">
             {service.name}
-          </h5>
+          </span>
           <p className="flex mb-3 font-normal text-xs font-sans text-gray-700 dark:text-gray-400">
             {service.description}
           </p>
