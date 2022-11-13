@@ -77,7 +77,7 @@ function Navbar() {
           }
           id="navbar-sticky"
         >
-          <ul className="text-white flex flex-col gap-2 rounded-lg p-4 mt-4 bg-sky-700 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-extralight md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
+          <ul className="text-white flex flex-col gap-2 rounded-lg p-4 mt-4 bg-sky-700 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-light md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-sans">
             <NavItem content="Quienes Somos" to="/" />
             <NavItem content="Nuestros Servicios" to="/servicios" />
             <NavItem content="Equipo" to="/equipo" />
@@ -85,7 +85,7 @@ function Navbar() {
             <NavItem content="Consulta del Día" to="/encuesta" />
             <li className="md:hidden flex justify-left">
               <button
-                className="text-gray-700 text-center sm:py-2 sm:pr-4 sm:pl-3 md:hidden"
+                className="text-white text-center sm:py-2 sm:pr-4 sm:pl-3 md:hidden"
                 onClick={() => scrollBottom()}
               >
                 Contactos
@@ -95,7 +95,7 @@ function Navbar() {
         </div>
         <div className="order-first md:order-last hidden md:block">
           <button
-            className="bg-sky-700 text-white py-2 px-4 rounded font-poppins text-base"
+            className="bg-sky-700 text-white py-2 px-4 rounded font-sans text-base"
             onClick={() => scrollBottom()}
           >
             Contactos
