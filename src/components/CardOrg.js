@@ -17,9 +17,9 @@ function CardOrg({orgs}) {
             />
           </div>
           <div className="flex flex-col">
-            <h5 className="flex text-left text-sm font-semibold font-sans tracking-tight text-gray-900 dark:text-white">
+            <span className="flex text-left text-sm font-semibold font-sans tracking-tight text-gray-900 dark:text-white">
               {org.name}
-            </h5>
+            </span>
             <p className="flex font-semibold font-sans text-xs text-left text-gray-700 dark:text-gray-400">
               {org?.countries}
             </p>
