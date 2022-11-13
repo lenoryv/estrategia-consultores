@@ -7,7 +7,7 @@ function NavItem({ content, to }) {
     <li>
       <NavLink
         to={to}
-        activeClassName="active">
+        activeclassname="active">
         {content}
       </NavLink>
     </li>

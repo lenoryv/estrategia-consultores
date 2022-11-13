@@ -3,7 +3,7 @@ function Audio ({date, description, image}) {
       <div className="flex flex-col items-center justify-center pb-5 w-full sm:w-80 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img
           className="rounded-t-lg h-full w-full"
-          srcset={`${image} 1127w`}
+          srcSet={`${image} 1127w`}
           sizes="25vw"
           alt="World"
         />
