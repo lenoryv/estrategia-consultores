@@ -6,8 +6,10 @@ function NavItem({ content, to }) {
   return (
     <li>
       <NavLink
+        onClick={() => console.log('click')}
         to={to}
-        activeclassname="active">
+        activeclassname="active"
+      >
         {content}
       </NavLink>
     </li>
