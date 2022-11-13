@@ -1,15 +1,12 @@
 import { NavLink } from 'react-router-dom'
 import './styles.css'
 
-function NavItem({ content, href }) {
-    
-  const pathname = window.location.pathname;
-  console.log(pathname, href);
+function NavItem({ content, to }) { 
 
   return (
     <li>
       <NavLink
-        to={href}
+        to={to}
         activeClassName="active">
         {content}
       </NavLink>

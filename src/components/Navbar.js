@@ -76,11 +76,11 @@ function Navbar() {
           id="navbar-sticky"
         >
           <ul className="text-white flex flex-col gap-2 rounded-lg p-4 mt-4 bg-sky-700 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-extralight md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-poppins">
-            <NavItem content="Quienes Somos" href="/" />
-            <NavItem content="Nuestros Servicios" href="/servicios" />
-            <NavItem content="Equipo" href="/equipo" />
-            <NavItem content="Experiencia/Clientes" href="/clientes" />
-            <NavItem content="Consulta del Día" href="/encuesta" />
+            <NavItem content="Quienes Somos" to="/" />
+            <NavItem content="Nuestros Servicios" to="/servicios" />
+            <NavItem content="Equipo" to="/equipo" />
+            <NavItem content="Experiencia/Clientes" to="/clientes" />
+            <NavItem content="Consulta del Día" to="/encuesta" />
             <li className="md:hidden flex justify-left">
               <button
                 className="text-gray-700 text-center sm:py-2 sm:pr-4 sm:pl-3 md:hidden"

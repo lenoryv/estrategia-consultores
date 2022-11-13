@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 
-const PdfView = () =>{
+const News = () =>{
 
     const [pageNumber, setPageNumber] = useState(1);
 
@@ -51,4 +51,4 @@ const PdfView = () =>{
   );
 }
 
-export default PdfView;
+export default News;

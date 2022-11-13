@@ -6,7 +6,6 @@ function Video({Video}) {
           Carlos Vera: Encuestas presidenciales de Estrategia Consultores 2021
         </p>
       </div>
-      <a href="/">
         <iframe
           className="w-full sm:w-full h-[200px] rounded-lg"
           src={Video}
@@ -14,7 +13,6 @@ function Video({Video}) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </a>
     </div>
   );
 }
