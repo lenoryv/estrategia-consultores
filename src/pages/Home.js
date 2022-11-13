@@ -10,7 +10,7 @@ const Home = () => {
     <div className="sm:mt-18 mt-14 pt-6 bg-ec-blue dark:bg-gray-900">
       <section className="flex flex-col sm:flex-row sm:px-24 h-full px-6 sm:my-0 my-6">
         <div className="flex flex-col sm:w-3/4 gap-4 justify-end sm:pb-6">
-          <span className="flex flex-col sm:flex-row font-extrabold font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
+          <span className="flex flex-col md:flex-row font-extrabold font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
             Estrategia
             <small className="flex sm:ml-4 font-light font-montserrat text-4xl sm:text-5xl text-left text-white uppercase">
               Consultores
