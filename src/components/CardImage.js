@@ -2,16 +2,24 @@ import { Link } from "react-router-dom";
 
 function CardImage({ date, description, image }) {
   return (
-    <div className="p-5 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="flex p-5 h-72 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <Link to="/pdf" target="_blank" rel="noopener noreferrer">
-        <span className="uppercase font-bold">Noticias</span>
-        <span className="flex mb-2 text-xs text-left font-poppins font-semibold tracking-tight text-gray-900 dark:text-white">
-          {date}
-        </span>
-        <p className="flex text-left mb-2 font-sans font-normal text-base text-gray-700 dark:text-gray-400">
-          {description}
-        </p>
-        <img className="rounded-b-lg h-36 w-96" src={image} alt="Card" />
+        <div className="h-2/5">
+          <span className="flex uppercase font-bold dark:text-white">
+            Noticias
+          </span>
+          <span className="flex mb-2 text-xs text-left font-poppins font-semibold tracking-tight text-gray-900 dark:text-white">
+            {date}
+          </span>
+          <p className="flex text-left mb-2 font-sans font-normal text-base text-gray-700 dark:text-gray-400">
+            {description}
+          </p>
+        </div>
+        <img
+          className="flex rounded-b-lg w-full h-3/5 object-cover"
+          src={image}
+          alt="News"
+        />
       </Link>
     </div>
   );

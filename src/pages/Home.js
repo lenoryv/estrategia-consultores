@@ -74,7 +74,7 @@ const Home = () => {
             <CardImage
               date="07 de noviembre de 2022"
               description="Estudio de Opinión pública sobre candidatos a prefecto de Loja"
-              image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80"
+              image="https://images.pexels.com/photos/590037/pexels-photo-590037.jpeg?format=webp"
             />
           </div>
         </div>
