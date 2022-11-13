@@ -9,6 +9,8 @@ function CardHorizontal({ Services }) {
         <img
           className="object-cover rounded-t-lg h-full w-full md:w-1/4 md:rounded-none md:rounded-l-lg"
           src={service.img}
+          srcSet={`${service.img} 240w`}
+          sizes="25vw"
           alt="Service"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">

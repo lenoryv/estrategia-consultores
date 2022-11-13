@@ -17,7 +17,14 @@ function CardPerson({ people }) {
           </p>
         </div>
         <div className="flex flex-col md:w-[240px] md:h-[320px] rounded-lg overflow-hidden">
-          <img src={person?.img} alt="Person" />
+          <img
+            src={person?.img}
+            alt="Person"
+            width="240"
+            height="320"
+            srcSet={`${person.img} 240w`}
+            sizes="25vw"
+          />
         </div>
       </div>
     );

@@ -24,7 +24,7 @@ export const MyServices = [
     name: "Estudios de Opinión Pública (Política)",
     href: "/",
     color: "#ef4444",
-    img: "https://images.pexels.com/photos/4570693/pexels-photo-4570693.jpeg",
+    img: "https://images.pexels.com/photos/4570693/pexels-photo-4570693.jpeg?format=webp&auto=compress&cs=tinysrgb&w=486&h=320&dpr=1",
     description:
       "Los estudios de opinión pública recogen el pensamiento y sentimientos de una muestra representativa de ciudadanos, para medir esa opinión  en un determinado momento, con relación a temas como la situación política y económica del país.\n" +
       "\n" +
@@ -38,7 +38,7 @@ export const MyServices = [
     name: "Estudios cuantitativos de mercado",
     href: "/",
     color: "#f97316",
-    img: "https://images.pexels.com/photos/8837507/pexels-photo-8837507.jpeg",
+    img: "https://images.pexels.com/photos/8837507/pexels-photo-8837507.jpeg?format=webp&auto=compress&cs=tinysrgb&w=213&h=320&dpr=1",
     description:
       "Son procesos realizados para indagar en las preferencias de potenciales o actuales, compradores o interesados en un producto o servicio, para tener un panorama claro que garantice la toma de decisiones acertadas.\n" +
       "\n" +
@@ -50,7 +50,7 @@ export const MyServices = [
     name: "Análisis cualitativos",
     href: "/",
     color: "#eab308",
-    img: "https://images.pexels.com/photos/5439152/pexels-photo-5439152.jpeg",
+    img: "https://images.pexels.com/photos/5439152/pexels-photo-5439152.jpeg?format=webp&auto=compress&cs=tinysrgb&w=213&h=320&dpr=1",
     description:
       "La investigación de mercado cualitativa es una técnica científica de investigación social y comercial, que utiliza preguntas de diferente tipo, para conocer pensamientos y sentimientos sobre un producto, servicio o marca. Se hacen básicamente a través de grupos de enfoque y entrevistas.\n" +
       "\n" +
@@ -65,7 +65,7 @@ export const MyServices = [
     name: "Diseño y evaluación de proyectos",
     href: "/",
     color: "#84cc16",
-    img: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+    img: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?format=webp&auto=compress&cs=tinysrgb&w=480&h=320&dpr=1",
     description:
       "Es una de las fases iniciales de un proceso donde se planifican ideas, recursos y estrategias. Esta fase suele crearse antes que el plan del proyecto, ya que brinda una descripción general para llevar adelante una idea exitosa, en cualquier ámbito. \n" +
       "\n" +
@@ -76,7 +76,7 @@ export const MyServices = [
     name: "Design Thinking para innovación de productos y servicios",
     href: "/",
     color: "#22c55e",
-    img: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg",
+    img: "https://images.pexels.com/photos/3471423/pexels-photo-3471423.jpeg?format=webp&auto=compress&cs=tinysrgb&w=426&h=320&dpr=1",
     description:
       "El Design Thinking es una metodología centrada en el usuario y orientada a la acción. Su objetivo es generar soluciones viables de acuerdo a problemas detectados en un determinado ámbito de trabajo. \n" +
       "\n" +
@@ -87,7 +87,7 @@ export const MyServices = [
     name: "Levantamiento y diseño de Procesos",
     href: "/",
     color: "#10b981",
-    img: "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg",
+    img: "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg?format=webp&auto=compress&cs=tinysrgb&w=479&h=320&dpr=1",
     description:
       "El levantamiento y descripción de los procesos es una forma de representar la realidad de la manera más exacta posible, a partir de la identificación de las diferentes actividades y tareas que se realizan en un proceso para lograr un determinado resultado o producto.\n" +
       "\n" +
@@ -98,7 +98,7 @@ export const MyServices = [
     name: "Modelos de negocios",
     href: "/",
     color: "#14b8a6",
-    img: "https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg",
+    img: "https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg?format=webp&auto=compress&cs=tinysrgb&w=480&h=320&dpr=1",
     description:
       "Modelo de negocio se puede resumir en que es “la forma que tiene una empresa de ganar dinero”; también es eso, pero es mucho más.\n" +
       "\n" +
@@ -111,7 +111,7 @@ export const MyServices = [
     name: "Asesoría para emprendimiento",
     href: "/",
     color: "#06b6d4",
-    img: "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg",
+    img: "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?format=webp&auto=compress&cs=tinysrgb&w=480&h=320&dpr=1",
     description:
       "Te ayudamos a identificar oportunidades y a desarrollar ideas para que puedas iniciar tu emprendimiento de manera adecuada, disminuyendo los riesgos y enfocándote en tus potencialidades. \n" +
       "\n" +
@@ -124,7 +124,7 @@ export const MyServices = [
     name: "Análisis estadístico y financiero",
     href: "/",
     color: "#0ea5e9",
-    img: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg",
+    img: "https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?format=webp&auto=compress&cs=tinysrgb&w=427&h=320&dpr=1",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
@@ -133,7 +133,7 @@ export const MyServices = [
     name: "Planes de marketing y publicidad",
     href: "/",
     color: "#3b82f6",
-    img: "https://images.pexels.com/photos/6483583/pexels-photo-6483583.jpeg",
+    img: "https://images.pexels.com/photos/6483583/pexels-photo-6483583.jpeg?format=webp&auto=compress&cs=tinysrgb&w=213&h=320&dpr=1",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
@@ -142,7 +142,7 @@ export const MyServices = [
     name: "Asesoría en comunicación institucional",
     href: "/",
     color: "#6366f1",
-    img: "https://images.pexels.com/photos/3727511/pexels-photo-3727511.jpeg",
+    img: "https://images.pexels.com/photos/3727511/pexels-photo-3727511.jpeg?format=webp&auto=compress&cs=tinysrgb&w=213&h=320&dpr=1",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada fringilla ante, id pretium ligula maximus ac. Donec fringilla eu lorem sit amet euismod. Suspendisse ullamcorper quis nibh at maximus. Cras pulvinar scelerisque diam, faucibus fermentum justo. Etiam odio urna, dignissim ut pharetra at, mattis at nisi.",
   },
@@ -183,7 +183,7 @@ export const Asociados = [
     description:
       "Ph. D. en Economía del Emprendimiento por la Universidad de Padua- Italia. " +
       "Master en Economía por la Universidad de La Plata, Argentina. Docente de Pre y Posgrado de la UESS-Ecuador. ",
-    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?ver=6",
+    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?format=webp&auto=compress&cs=tinysrgb&w=240&h=320&dpr=1",
   },
   {
     name: "Darío Vélez Jara  ",
@@ -198,14 +198,14 @@ export const Asociados = [
       "PhD en Políticas Públicas y Master en Administración Pública y Desarrollo Internacional" +
       " en la Universidad de Harvard, Master en Políticas Públicas en FLACSO-Ecuador, y títulos " +
       "de B.A. en Sociología y Economía en la Universidad San Francisco de Quito",
-    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?ver=6",
+    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?format=webp&auto=compress&cs=tinysrgb&w=240&h=320&dpr=1",
   },
   {
     name: "Armando Cabrera",
     description:
       "Master en Ciencias y Tecnología de la Información por la Universidad Politécnica de Madrid. " +
       " Ingeniero en Sistemas Informáticos por la UTPL. Director de la Escuela de Ingeniería en informática de la UTPL.",
-    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?ver=6",
+    img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?format=webp&auto=compress&cs=tinysrgb&w=240&h=320&dpr=1",
   },
   {
     name: "Vismar G. Flores",
@@ -219,7 +219,7 @@ export const Organizaciones = [
   {
     name: "Universidad Técnica Particular de Loja (UTPL)",
     urlImage:
-      "http://smartland.utpl.edu.ec/loja2030/sites/default/files/2019-02/logo_temp.png",
+      "http://smartland.utpl.edu.ec/loja2030/sites/default/files/2019-02/logo_temp.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja - Ecuador",
     years: "2014 – 2015 – 2016",
     color: "#ef4444",
@@ -227,7 +227,7 @@ export const Organizaciones = [
   {
     name: "Diario la Hora",
     urlImage:
-      "https://img.genial.ly/60484908cbcc3a3386f6612a/627d5c4a-6965-40e1-9390-4305224ce1c4.png",
+      "https://img.genial.ly/60484908cbcc3a3386f6612a/627d5c4a-6965-40e1-9390-4305224ce1c4.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja, Quito, Ambato",
     years: "2000 – 2002 – 2005 – 2009 – 2012 – 2017",
     color: "#f97316",
@@ -235,14 +235,15 @@ export const Organizaciones = [
   {
     name: "Mullenlowe - Delta Publicidad",
     urlImage:
-      "https://s3-eu-west-1.amazonaws.com/cdn1.mullenlowegroup.com/uploads/2014/10/mullenlowe1.png",
+      "https://s3-eu-west-1.amazonaws.com/cdn1.mullenlowegroup.com/uploads/2014/10/mullenlowe1.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Quito",
     years: "2005 – 2008 – 2010 – 2012 – 2014",
     color: "#f59e0b",
   },
   {
     name: "American Hospital",
-    urlImage: "https://sdaho.org/wp-content/uploads/2017/07/AHA_1.png",
+    urlImage:
+      "https://sdaho.org/wp-content/uploads/2017/07/AHA_1.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Cuenca",
     years: "2011",
     color: "#eab308",
@@ -250,7 +251,7 @@ export const Organizaciones = [
   {
     name: "FAPECAFES",
     urlImage:
-      "https://cecjecuador.org.ec/wp-content/uploads/2021/06/fapecafes.jpg",
+      "https://cecjecuador.org.ec/wp-content/uploads/2021/06/fapecafes.jpg?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja, Zamora",
     years: "2008",
     color: "#84cc16",
@@ -266,7 +267,7 @@ export const Organizaciones = [
   {
     name: "CACPE",
     urlImage:
-      "https://cacpeloja.fin.ec/wp-content/uploads/2018/07/cacpe-loja-logo-sticky-2x.png",
+      "https://cacpeloja.fin.ec/wp-content/uploads/2018/07/cacpe-loja-logo-sticky-2x.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2005 – 2010",
     color: "#10b981",
@@ -274,7 +275,7 @@ export const Organizaciones = [
   {
     name: "DEPROSUR E. P.",
     urlImage:
-      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
+      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "",
     years: "2010",
     color: "#14b8a6",
@@ -282,7 +283,7 @@ export const Organizaciones = [
   {
     name: "Banco de Loja",
     urlImage:
-      "https://lagardservice.com.ec/wp-content/uploads/2015/02/LOGO-MAYOR-BANCO-DE-LOJA.png",
+      "https://lagardservice.com.ec/wp-content/uploads/2015/02/LOGO-MAYOR-BANCO-DE-LOJA.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2009 – 2012",
     color: "#06b6d4",
@@ -290,7 +291,7 @@ export const Organizaciones = [
   {
     name: "GEMESEG Seguridad",
     urlImage:
-      "https://gemeseg.com/wp-content/uploads/2019/12/grupoempresarial2.png",
+      "https://gemeseg.com/wp-content/uploads/2019/12/grupoempresarial2.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "",
     years: "2012 – 2022",
     color: "#0ea5e9",
@@ -298,7 +299,7 @@ export const Organizaciones = [
   {
     name: "Banco del Estado Regional Sur",
     urlImage:
-      "https://cdnimg.bnamericas.com/QECtubkJcmutDefzofVPmLpOEWlJIyRLizuSPkbZXsdstfDHpRvhIeScKGLbmAdv.png",
+      "https://cdnimg.bnamericas.com/QECtubkJcmutDefzofVPmLpOEWlJIyRLizuSPkbZXsdstfDHpRvhIeScKGLbmAdv.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "",
     years: "2012 – 2015 – 2016",
     color: "#3b82f6",
@@ -314,7 +315,7 @@ export const Organizaciones = [
   {
     name: "Consultor Apoyo",
     urlImage:
-      "https://media-exp1.licdn.com/dms/image/C4D0BAQEb2cDLt2xxCg/company-logo_200_200/0/1625146780995?e=2147483647&v=beta&t=5eGmkHPYlfw1GghY2VhVKrm7HQzrE-lH5yhROJFqY9M",
+      "https://d1hbpr09pwz0sk.cloudfront.net/logo_url/apoyo-consultor-5907847f?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Quito",
     years: "2014",
     color: "#8b5cf6",
@@ -322,21 +323,23 @@ export const Organizaciones = [
   {
     name: "Cooperativa de Transportes Loja",
     urlImage:
-      "https://cooperativaloja.com.ec/wp-content/uploads/2020/02/Recurso-2.png",
+      "https://cooperativaloja.com.ec/wp-content/uploads/2020/02/Recurso-2.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2015 – 2019 – 2021",
     color: "#a855f7",
   },
   {
     name: "Instituto Tecnológico Daniel Álvarez B.",
-    urlImage: "https://docplayer.es/docs-images/97/134521168/images/1-2.jpg",
+    urlImage:
+      "https://docplayer.es/docs-images/97/134521168/images/1-2.jpg?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2016",
     color: "#d946ef",
   },
   {
     name: "Corporación de Ferias de Loja",
-    urlImage: "https://cfloja.org/wp-content/uploads/2022/03/LOGO-CFL-09.png",
+    urlImage:
+      "https://cfloja.org/wp-content/uploads/2022/03/LOGO-CFL-09.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2017",
     color: "#ec4899",
@@ -344,7 +347,7 @@ export const Organizaciones = [
   {
     name: "Grupo Funerario Jaramillo",
     urlImage:
-      "https://www.funerariajaramillo.com.ec/wp-content/uploads/2019/06/logo-funeraria2.png",
+      "https://www.funerariajaramillo.com.ec/wp-content/uploads/2019/06/logo-funeraria2.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2018 – 2020",
     color: "#f43f5e",
@@ -352,7 +355,7 @@ export const Organizaciones = [
   {
     name: "Ecotel TV ",
     urlImage:
-      "https://directostv.teleame.com/wp-content/uploads/2017/10/Ecotel-TV-en-vivo-Online.png",
+      "https://directostv.teleame.com/wp-content/uploads/2017/10/Ecotel-TV-en-vivo-Online.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2018",
     color: "#fca5a5",
@@ -360,7 +363,7 @@ export const Organizaciones = [
   {
     name: "Lev – Leb Publicitaria ",
     urlImage:
-      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png",
+      "https://icones.pro/wp-content/uploads/2021/04/icone-cercle-gris.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Santiago de Chile",
     years: "2018",
     color: "#4ade80",
@@ -368,14 +371,15 @@ export const Organizaciones = [
   {
     name: "Colegio Eugenio Espejo",
     urlImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqdiCa00o1VAi2g1GntlX2JIuspTn_pqnWg&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqdiCa00o1VAi2g1GntlX2JIuspTn_pqnWg&usqp=CAU?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2021",
     color: "#2dd4bf",
   },
   {
     name: "GO Motors",
-    urlImage: "https://www.fcme.com.ec/wp-content/uploads/logo-gomotors.png",
+    urlImage:
+      "https://www.fcme.com.ec/wp-content/uploads/logo-gomotors.png?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "",
     years: "2020",
     color: "#22d3ee",
@@ -390,7 +394,8 @@ export const Organizaciones = [
   },
   {
     name: "Municipio de Loja",
-    urlImage: "https://www.loja.gob.ec/files/image/imagenes/escudo-loja.jpg",
+    urlImage:
+      "https://www.loja.gob.ec/files/image/imagenes/escudo-loja.jpg?format=webp&auto=compress&cs=tinysrgb&w=64&h=64&dpr=1",
     countries: "Loja",
     years: "2019 – 2021",
     color: "#60a5fa",
