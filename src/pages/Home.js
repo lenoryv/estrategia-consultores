@@ -76,7 +76,7 @@ const Home = () => {
             <CardImage
               date="07 de noviembre de 2022"
               description="Estudio de Opinión pública sobre candidatos a prefecto de Loja"
-              image="https://images.pexels.com/photos/590037/pexels-photo-590037.jpeg?format=webp&auto=compress&cs=tinysrgb&w=360&h=240&dpr=1"
+              image="https://images.pexels.com/photos/590037/pexels-photo-590037.jpeg?format=webp&auto=compress&cs=tinysrgb&w=440&h=291&dpr=1"
             />
           </div>
         </div>
@@ -108,7 +108,6 @@ const Home = () => {
           Estrategia en los medios
         </span>
         <div className="max-w-screen-xl flex flex-col sm:flex-row h-full gap-6 mt-4 sm:pb-8">
-          {/* overflow-x-auto  */}
           <Card />
           <Audio
             date="01 de abril de 2021"
