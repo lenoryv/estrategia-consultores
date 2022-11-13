@@ -155,12 +155,12 @@ export const Directivos = [
     description:
       "Doctor (Ph.D.) en Comunicación Contemporánea por la Universidad Santiago de Compostela. Master en" +
       " Marketing Estratégico por EOI Escuela de Negocios de Madrid. Diplomado en Entrepreneurship por el Babson College de EE.UU." +
-      " Especialista en Investigación de mercados y opinión pública.\n\nTrabajó como coordinador de proyectos en CEDATOS- Quito, a " +
+      " Especialista en Investigación de mercados y opinión pública.\n\nTrabajó como coordinador de proyectos en CEDATOS - Quito, a " +
       "cargo de investigaciones  para cuentas como: Ecuador Boutling Company (Cola Cola), Bell South, Ecuasanitas, Dun & Bradstreet, " +
       "etc.  Ex Director del departamento de Marketing de COOP MEGO en Loja.\n\nFundador y  director por 8 años del Departamento de " + 
       "Marketing y Publicidad Institucional de la UTPL, donde creó y posicionó el eslogan "+
       '"Decide ser más"' +
-      ". Docente-investigador de la misma Universidad por 23 años. Director de Educación" +
+      ". Docente - investigador de la misma Universidad por 23 años. Director de Educación" +
       " Continua de la UTPL de 2007 a 2014 y de 2016 a 2018. Actualmente es coordinador de Grupo de Investigación en Innovación y " +
       "Emprendimiento de UTPL. Presidente de la fundación CISOL, para educación a niños de sectores vulnerables.",
     img: "/assets/img/carlos-granda.jpeg",
@@ -169,7 +169,7 @@ export const Directivos = [
     name: "Carla Granda Tandazo",
     position: "Directora  de Proyectos",
     description:
-      "Master en Ciencia e Ingeniería de Alimentos por la Universidad Politécnica de Valencia." +
+      "Master en Ciencia e Ingeniería de Alimentos por la Universidad Politécnica de Valencia. " +
       "Ingeniera en Industrias Alimenticias por la UTPL. Master en Diseño y Gestión de Proyectos" +
       " por la UTPL. Ex Jefe de Innovación de productos de Discovery Trading Co. Guayaquil. " +
       "Ex docente de la Universidad Católica de Guayaquil. Ex Jefe de Transformación productiva " +
@@ -181,7 +181,7 @@ export const Asociados = [
   {
     name: "Aldo Salinas A.",
     description:
-      "Ph. D. en Economía del Emprendimiento por la Universidad de Padua- Italia. " +
+      "Ph. D. en Economía del Emprendimiento por la Universidad de Padua-Italia. " +
       "Master en Economía por la Universidad de La Plata, Argentina. Docente de Pre y Posgrado de la UESS-Ecuador. ",
     img: "https://us.123rf.com/450wm/kritchanut/kritchanut1406/kritchanut140600114/29213224-hombre-foto-de-perfil-silueta-avatar.jpg?format=webp&auto=compress&cs=tinysrgb&w=240&h=320&dpr=1",
   },
