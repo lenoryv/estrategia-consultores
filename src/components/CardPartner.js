@@ -11,7 +11,7 @@ function CardPartner({ people }) {
           alt="Person"
         />
         <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="mb-2 text-base font-bold font-montserrat tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-base font-bold font-sans tracking-tight text-gray-900 dark:text-white">
             {person.name}
           </h5>
           <h6 className="mb-2 text-lg font-semibold font-sans text-left tracking-tight text-gray-900 dark:text-white">
