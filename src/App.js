@@ -1,4 +1,4 @@
-import './App.css';
+import './Global.css';
 import React from "react";
 
 import { Footer } from './components/Footer';
