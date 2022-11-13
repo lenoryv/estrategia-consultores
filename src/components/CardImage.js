@@ -16,7 +16,9 @@ function CardImage({ date, description, image }) {
           </p>
         </div>
         <img
-          className="flex rounded-b-lg w-full h-3/5 object-cover"
+          className="flex rounded-b-lg w-full h-3/5"
+          srcset={image}
+          sizes="50vw"
           src={image}
           alt="News"
         />
