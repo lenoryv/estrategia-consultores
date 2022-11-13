@@ -36,7 +36,9 @@ const Home = () => {
             className="hover:drop-shadow-[0_4px_80px_#5F6F94] flex w-full items-center font-sans tracking-wide bg-gray-100 z-20 px-4 py-2 rounded-md sm:rounded-lg border border-gray-900"
           >
             <img
-              className="w-6 h-6 sm:h-auto sm:w-8"
+              className="sm:h-auto sm:w-8"
+              width="24"
+              height="24"
               src="./assets/icons/question-answer-v2.svg"
               alt="icon button"
             />

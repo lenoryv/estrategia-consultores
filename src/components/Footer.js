@@ -7,7 +7,12 @@ function Footer () {
         <div className="md:flex md:justify-between sm:gap-8">
           <div className="mb-4 md:mb-0">
             <a href="/" className="flex items-center">
-              <img src="./assets/logos/isotipo.svg" alt="EC Isotipo" />
+              <img
+                src="./assets/logos/isotipo.svg"
+                width="60"
+                height="60"
+                alt="EC Isotipo"
+              />
             </a>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-3">
