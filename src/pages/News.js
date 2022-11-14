@@ -30,8 +30,8 @@ const News = () => {
   }
 
   return (
-    <div className="pr-24 pt-24 ">
-      <center className="sm:w-auto w-20">
+    <div>
+      <center className="sm:w-auto w-20 pt-14">
           <Document
             file="/assets/news.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
