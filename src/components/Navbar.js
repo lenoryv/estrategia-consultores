@@ -76,7 +76,7 @@ function Navbar() {
           id="navbar-sticky"
         >
           <ul
-            onClick={() => setOpenNavbar(!openNavbar)}
+            onClick={() => setOpenNavbar(false)}
             className="text-white flex flex-col gap-2 rounded-lg p-4 mt-4 bg-sky-700 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-light md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-400 font-sans"
           >
             <NavItem content="Quienes Somos" to="/" />

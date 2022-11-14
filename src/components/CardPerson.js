@@ -3,7 +3,7 @@ function CardPerson({ people }) {
     return (
       <div
         key={person.name}
-        className="flex flex-col md:flex-row items-start  gap-6 md:w-auto md:max-h-min p-6 md:p-8 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+        className="flex flex-col md:flex-row items-start justify-between gap-6 md:w-auto md:max-h-min p-6 md:p-8 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
         <div className="flex flex-col md:w-3/4 md:max-h-max">
           <h5 className="mb-2 text-left text-xl font-bold font-poppins tracking-tight text-gray-900 dark:text-white">
@@ -16,8 +16,9 @@ function CardPerson({ people }) {
             {person.description}
           </p>
         </div>
-        <div className="flex flex-col md:w-[240px] md:h-[320px] rounded-lg overflow-hidden">
+        <div className="flex flex-col md:w-[240px] md:h-auto">
           <img
+            className="hidden sm:flex rounded-lg"
             src={person?.img}
             alt="Person"
             width="240"

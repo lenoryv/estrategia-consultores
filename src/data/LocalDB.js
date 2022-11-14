@@ -163,7 +163,7 @@ export const Directivos = [
       ". Docente - investigador de la misma Universidad por 23 años. Director de Educación" +
       " Continua de la UTPL de 2007 a 2014 y de 2016 a 2018. Actualmente es coordinador de Grupo de Investigación en Innovación y " +
       "Emprendimiento de UTPL. Presidente de la fundación CISOL, para educación a niños de sectores vulnerables.",
-    img: "/assets/img/carlos-granda.jpeg",
+    img: "/assets/img/carlos-granda.webp",
   },
   {
     name: "Carla Granda Tandazo",
@@ -174,7 +174,7 @@ export const Directivos = [
       " por la UTPL. Ex Jefe de Innovación de productos de Discovery Trading Co. Guayaquil. " +
       "Ex docente de la Universidad Católica de Guayaquil. Ex Jefe de Transformación productiva " +
       "y Valor agregado en el Área de Producción del Gobierno Provincial de Loja. Representante de GLED ",
-    img: "/assets/img/carla-granda.jpeg",
+    img: "/assets/img/carla-granda.webp",
   },
 ];
 export const Asociados = [
@@ -190,7 +190,7 @@ export const Asociados = [
     description:
       "Master en Economía por la Universidad de La Plata, Argentina. Economista de la UTPL." +
       " Director Nacional de Estadística del INEC.",
-    img: "/assets/img/dario-velez.jpeg",
+    img: "/assets/img/dario-velez.webp",
   },
   {
     name: "Juan P. Chauvin ",
@@ -211,7 +211,7 @@ export const Asociados = [
     name: "Vismar G. Flores",
     description:
       "Ph.D. (c) Economía, mención Administración de la Universidad de Cuyo – Argentina.  Master en Administración de empresas por la UTEG – Ecuador ",
-    img: "/assets/img/vismar-flores.jpeg",
+    img: "/assets/img/vismar-flores.webp",
   },
 ];
 
