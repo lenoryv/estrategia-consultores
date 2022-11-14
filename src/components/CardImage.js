@@ -17,8 +17,8 @@ function CardImage({ date, description, image }) {
         </div>
         <img
           className="hidden sm:flex rounded-b-lg w-full h-3/5"
-          srcSet={`${image} 360w`}
-          sizes="25vw"
+          srcSet={`${image} 439w`}
+          sizes="50vw"
           src={image}
           alt="News"
         />
