@@ -81,13 +81,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="flex flex-col pt-6 pb-8 sm:pt-10 sm:px-24 px-6 py-6 h-full gap-6 sm:gap-0 bg-slate-50">
+      <section className="flex flex-col pt-6 pb-8 sm:pt-10 sm:px-24 px-6 py-6 h-full gap-6 sm:gap-0 bg-slate-50 dark:bg-gray-900">
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-16">
           <div className="flex flex-col sm:w-1/4 text-left justify-center gap-4 sm:gap-8 items-center sm:items-start">
-            <span className="flex uppercase font-montserrat font-medium text-base text-ec-blue">
+            <span className="flex uppercase font-montserrat font-medium text-base text-ec-blue dark:text-white">
               Nuestros Servicios
             </span>
-            <span className="font-montserrat font-light text-base  text-ec-blue">
+            <span className="font-montserrat font-light text-base  text-ec-blue dark:text-white">
               Entre los servicios ofrecidos por ESTRATEGIA CONSULTORES están:
             </span>
             <a

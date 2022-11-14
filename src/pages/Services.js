@@ -3,7 +3,7 @@ import { CardHorizontal } from "../components/CardHorizontal";
 
 const Services = () => {
   return (
-    <div className="h-full w-full px-6 pb-10 sm:px-24 dark:bg-gray-900">
+    <div className="h-full w-full px-6 pb-10 sm:px-24 sm:pt-4 pt-4 dark:bg-gray-900">
       <h1 className="text-xl sm:text-2xl text-ec-blue font-medium font-montserrat dark:text-white mt-20 sm:mt-32 sm:mb-10">
         <small className="mr-2 text-xl sm:text-2xl text-gray-500 font-medium font-montserrat dark:text-white mt-20 sm:mt-32 sm:mb-10">
           Entre los servicios ofrecidos por

@@ -5,7 +5,7 @@ import { CardPartner } from "../components/CardPartner";
 const Team = () => {
     return (
       <div className="dark:bg-gray-900">
-        <section className="sm:w-full flex flex-col sm:px-24 sm:h-full px-6 sm:mt-28 mt-24 gap-6">
+        <section className="sm:w-full flex flex-col sm:px-24 sm:h-full px-6 sm:pt-28 pt-24 gap-6">
           <span className="text-left uppercase font-montserrat text-base sm:text-2xl font-medium text-ec-blue dark:text-white">
             Equipo Ejecutivo
           </span>

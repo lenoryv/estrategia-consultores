@@ -17,7 +17,7 @@ function Audio ({date, description, image}) {
         </div>
         <a
           href="https://sputniknews.lat/20210401/elecciones-en-ecuador-cualquier-cosa-puede-pasar-seran-dias-intensos-1110723999.html"
-          className="flex w-40 justify-center items-center py-3 px-6 text-xs font-sans font-medium text-center text-white bg-ec-blue rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="flex w-40 justify-center items-center py-3 px-6 text-xs font-sans font-medium text-center text-white bg-ec-blue rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:bg-blue-700 dark:focus:ring-blue-800 dark:bg-gray-900"
         >
           Escuchar audio
           <svg
