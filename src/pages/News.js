@@ -30,23 +30,21 @@ const News = () => {
   }
 
   return (
-    <div className="pt-24 flex justify-center items-center">
-      <center>
-        <div>
+    <div className="pr-24 pt-24 ">
+      <center className="sm:w-auto w-20">
           <Document
             file="/assets/news.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             {Array.from(new Array(numPages), (el, index) => (
               <Page
+              width={620}
                 key={pageNumber + index}
                 pageNumber={index + 1}
                 onLoadSuccess={removeElements}
               />
             ))}
-          </Document>
-        </div>
-      </center>
+          </Document></center>
     </div>
   );
 };
