@@ -5,6 +5,8 @@ import { Audio } from '../components/Audio';
 import { MyServices } from '../data/LocalDB';
 import { BtnService} from '../components/BtnService';
 
+import { NavLink } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="sm:mt-18 mt-14 pt-6 bg-ec-blue dark:bg-gray-900">
@@ -90,13 +92,12 @@ const Home = () => {
             <span className="font-montserrat font-light text-base  text-ec-blue dark:text-white">
               Entre los servicios ofrecidos por ESTRATEGIA CONSULTORES están:
             </span>
-            <a
-              href="/servicios"
-              type="button"
+            <NavLink
+              to="/servicios"
               className="flex w-32 items-center justify-center py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-ec-blue focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-ec-blue hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
               Saber Más
-            </a>
+            </NavLink>
           </div>
           <div className="grid flex-nowrap gap-4 h-full w-auto sm:h-auto rounded-sm sm:rounded-3xl bg-cover sm:w-3/4 grid-cols-2 sm:grid-cols-4 sm:auto-rows-auto">
             <BtnService Services={MyServices} />
