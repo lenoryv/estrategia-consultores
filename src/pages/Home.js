@@ -67,7 +67,7 @@ const Home = () => {
           </div>
           <div className="w-full">
             <Video
-              Video={
+              video={
                 "https://www.youtube.com/embed/P-ltn1kC9EY?controls=0&amp;start=435&end=612"
               }
             />

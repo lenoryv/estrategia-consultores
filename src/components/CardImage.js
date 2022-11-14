@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function CardImage({ date, description, image }) {
   return (
-    <div className="flex p-5 h-72 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="flex p-5 sm:h-72 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <Link to="/pdf" target="_blank" rel="noopener noreferrer">
-        <div className="h-2/5">
+        <div className="sm:h-2/5">
           <span className="flex uppercase font-bold dark:text-white">
             Noticias
           </span>
